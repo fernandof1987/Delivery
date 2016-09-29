@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<ApMenu>
+	<DocumentProperties>
+<DataAtualizacao>2016-09-19</DataAtualizacao>		<Module></Module>
+		<Version>10.1</Version>
+	</DocumentProperties>
+	<Menu Status="Enable">
+		<Title lang="pt">Atualizações</Title>
+		<Title lang="es">Actualizaciones</Title>
+		<Title lang="en">Updates</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Registers</Title>
+			<ItemId>0000000676</ItemId>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Produtos X Clientes</Title>
+				<Title lang="es">Productos Vs Clientes</Title>
+				<Title lang="en">Products X Customers</Title>
+				<Function>MATA370</Function>
+				<Type>01</Type>
+				<Tables>SA7</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SB1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxx      </Access>
+				<Module>05</Module>
+				<Owner>5</Owner>
+				<ItemId>0000000690</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+</ApMenu>

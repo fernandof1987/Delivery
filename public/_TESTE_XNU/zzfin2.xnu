@@ -1,0 +1,4861 @@
+<ApMenu>
+	<DocumentProperties>
+		<Module>SIGAFIN</Module>
+		<Version>10.1</Version>
+	</DocumentProperties>
+	<Menu Status="Enable">
+		<Title lang="pt">&Atualizações</Title>
+		<Title lang="es">&Actualizaciones</Title>
+		<Title lang="en">&Updates</Title>
+		<ItemID>A060000001</ItemID>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">File</Title>
+			<ItemID>0000011612</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fornecedores</Title>
+				<Title lang="es">Proveedores</Title>
+				<Title lang="en">Suppliers</Title>
+				<Function>MATA020</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SC7</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SF1</Tables>
+				<Tables>SA5</Tables>
+				<Tables>SC1</Tables>
+				<Tables>SAD</Tables>
+				<Tables>SB6</Tables>
+				<Tables>AC8</Tables>
+				<Tables>AC9</Tables>
+				<Tables>FIL</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>2</Owner>
+				<ItemID>0000001084</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Empresas,participantes,provedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="es">Empresas,participantes,proveedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="en">Companies,participants,providers,bidders,suppliers,providers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Clientes</Title>
+				<Title lang="es">Clientes</Title>
+				<Title lang="en">Customers</Title>
+				<Function>MATA030</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SC5</Tables>
+				<Tables>SD1</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SDE</Tables>
+				<Tables>VCB</Tables>
+				<Tables>SAO</Tables>
+				<Tables>AC8</Tables>
+				<Tables>AC9</Tables>
+				<Tables>SY6</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001088</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Licitantes,empresas,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Licitantes,empresas,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Bidders,companies,buyers,consumers,costuemrs</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Vendedores</Title>
+				<Title lang="es">Vendedores</Title>
+				<Title lang="en">Sales Represent.</Title>
+				<Function>MATA040</Function>
+				<Type>1</Type>
+				<Tables>SA3</Tables>
+				<Tables>SC5</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SF5</Tables>
+				<Tables>SJ1</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001090</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Provedores,pessoas,canal,canais</KeyWord>
+					<KeyWord lang="es">Proveedores,personas,canal,canales</KeyWord>
+					<KeyWord lang="en">Providers,people,channel,channels</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Diable">
+				<Title lang="pt">Bancos</Title>
+				<Title lang="es">Bancos</Title>
+				<Title lang="en">Banks</Title>
+				<Function>MATA070</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001096</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,contas,agências</KeyWord>
+					<KeyWord lang="es">Financiero,cuentas,agencias</KeyWord>
+					<KeyWord lang="en">Financial,accounts,branches</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Moedas</Title>
+				<Title lang="es">Monedas</Title>
+				<Title lang="en">Currencies</Title>
+				<Function>MATA090</Function>
+				<Type>1</Type>
+				<Tables>SM2</Tables>
+				<Tables>CTP</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001098</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Taxas,financeiro,conversão,cotação,conversões,cotações</KeyWord>
+					<KeyWord lang="es">Tasas,financiero,conversion,cotizacion,conversiones,cotizaciones</KeyWord>
+					<KeyWord lang="en">Rates,financial,conversion,quotation,conversions,quotations</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Naturezas</Title>
+				<Title lang="es">Modalidades</Title>
+				<Title lang="en">Classes</Title>
+				<Function>FINA010</Function>
+				<Type>1</Type>
+				<Tables>SED</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001099</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,classificação,classificações,categorias,classe,condição,condições,gêneros,tipos</KeyWord>
+					<KeyWord lang="es">Financiero,clasificacion,clasificaciones,categorias,clase,condicion,condiciones,generos,tipos</KeyWord>
+					<KeyWord lang="en">Financial,classification,classification,categories,class,condition,conditions,type,types</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Orçamentos</Title>
+				<Title lang="es">Presupuestos</Title>
+				<Title lang="en">Budget</Title>
+				<Function>FINA020</Function>
+				<Type>1</Type>
+				<Tables>SE7</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001102</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,classificação,classificações,categorias,classes,condição,condições,gêneros,tipos,naturezas</KeyWord>
+					<KeyWord lang="es">Financiero,clasificacion,clasificaciones,categorias,clases,condicion,condiciones,generos,tipos,modalidades</KeyWord>
+					<KeyWord lang="en">Financial,classification,classification,categories,classes,condition,conditions,type,types,class</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Contatos</Title>
+				<Title lang="es">Contactos</Title>
+				<Title lang="en">Contacts</Title>
+				<Function>TMKA070</Function>
+				<Type>1</Type>
+				<Tables>SU5</Tables>
+				<Tables>SQO</Tables>
+				<Tables>SQB</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>13</Owner>
+				<ItemID>0000001104</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Canal,canais,vendedores,compradores,pessoas,relacionamentos,comunicação,comunicações</KeyWord>
+					<KeyWord lang="es">Canal,canales,vendedores,compradores,personas,relaciones,comunicacion,comunicaciones</KeyWord>
+					<KeyWord lang="en">Channel,channels,sales_representatives,purchasers,people,relationships,communication,communications</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Lançamento Padrão</Title>
+				<Title lang="es">Asiento Estandar</Title>
+				<Title lang="en">Standard Entry</Title>
+				<Function>CTBA080</Function>
+				<Type>1</Type>
+				<Tables>CT5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>34</Owner>
+				<ItemID>0000001105</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Lançamentos,contabilidade,contabilização,contabilizações</KeyWord>
+					<KeyWord lang="es">Asientos,contabilidad,contabilizacion,contabilizaciones</KeyWord>
+					<KeyWord lang="en">Entries,accounting,accounting,accounting</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Tipos de Títulos</Title>
+				<Title lang="es">Tipos de Titulos</Title>
+				<Title lang="en">Bill Types</Title>
+				<Function>FINA015</Function>
+				<Type>1</Type>
+				<Tables>SES</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001108</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Classificação,classificações,categorias,classes,gêneros</KeyWord>
+					<KeyWord lang="es">Clasificacion,clasificaciones,categorias,clases,generos</KeyWord>
+					<KeyWord lang="en">Classification,classification,categories,class,type</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Manutenção de Tabelas Auxiliares</Title>
+				<Title lang="es">Mantenimiento de Tablas Auxiliares</Title>
+				<Title lang="en">Auxiliary Table Maintenance</Title>
+				<Function>FINA007</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001083</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Manutenções,reparos</KeyWord>
+					<KeyWord lang="es">Mantenimientos,reparos</KeyWord>
+					<KeyWord lang="en">Maintenance,repair</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Contrato Bancário</Title>
+				<Title lang="es">Contrato Bancario</Title>
+				<Title lang="en">Bank Contract</Title>
+				<Function>FINA120</Function>
+				<Type>1</Type>
+				<Tables>SE9</Tables>
+				<Tables>SE0</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001112</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,aplicações,contratos,aplicação</KeyWord>
+					<KeyWord lang="es">Bancos,inversiones,contratos,inversion</KeyWord>
+					<KeyWord lang="en">Banks,applications,contracts,application</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Parâmetros de Bancos</Title>
+				<Title lang="es">Parametros de Bancos</Title>
+				<Title lang="en">Bank Parameters</Title>
+				<Function>FINA130</Function>
+				<Type>1</Type>
+				<Tables>SEE</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001114</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,cobranças</KeyWord>
+					<KeyWord lang="es">Cnab,cobros</KeyWord>
+					<KeyWord lang="en">Cnab,collection</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Ocorrências Cnab</Title>
+				<Title lang="es">Ocurrencias Cnab</Title>
+				<Title lang="en">Cnab Occurrences</Title>
+				<Function>FINA140</Function>
+				<Type>1</Type>
+				<Tables>SEB</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SI7</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001116</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,cnab,contas,envios,retornos</KeyWord>
+					<KeyWord lang="es">Bancos,cnab,cuentas,envios,retornos</KeyWord>
+					<KeyWord lang="en">Banks,cnab,accounts,sending,return</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Ocorrêcias de Extratos</Title>
+				<Title lang="es">Ocurrencias de Extractos</Title>
+				<Title lang="en">Statement Occurrences</Title>
+				<Function>FINA480</Function>
+				<Type>1</Type>
+				<Tables>SEJ</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001118</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,cnab,contas,envios,retornos</KeyWord>
+					<KeyWord lang="es">Bancos,cnab,cuentas,envios,retornos</KeyWord>
+					<KeyWord lang="en">Banks,cnab,accounts,sendings,returns</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Condições Pagamento</Title>
+				<Title lang="es">Condiciones Pago</Title>
+				<Title lang="en">Payment Terms</Title>
+				<Function>MATA360</Function>
+				<Type>1</Type>
+				<Tables>SE4</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>4</Owner>
+				<ItemID>0000001120</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Condição,parcelas,pagar,receber,títulos,pagamentos,embolsos,prazos</KeyWord>
+					<KeyWord lang="es">Condicion,cuotas,pagar,cobrar,titulos,pagos,embolsos,plazos</KeyWord>
+					<KeyWord lang="en">Condition,installments,pay,receive,titles,payments,imbursements,terms</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">M-messenger</Title>
+				<Title lang="es">M-messenger</Title>
+				<Title lang="en">M-messenger</Title>
+				<Function>MATA045</Function>
+				<Type>1</Type>
+				<Tables>SAN</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011328</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Mensagens,mensagem,comunicação,comunicações</KeyWord>
+					<KeyWord lang="es">Mensajes,mensaje,comunicacion,comunicaciones</KeyWord>
+					<KeyWord lang="en">Messages,message,communication,communications</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Fórmulas</Title>
+				<Title lang="es">Formulas</Title>
+				<Title lang="en">Formulas</Title>
+				<Function>CFGX019</Function>
+				<Type>1</Type>
+				<Tables>SM2</Tables>
+				<Tables>SM4</Tables>
+				<Tables>SU0</Tables>
+				<Tables>SU5</Tables>
+				<Tables>SU7</Tables>
+				<Tables>SUS</Tables>
+				<Tables>SUV</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>99</Owner>
+				<ItemID>0000001128</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Customização,customizações,personalização,personalizações</KeyWord>
+					<KeyWord lang="es">Personalizacion,personalizaciones,personalizacion,personalizaciones</KeyWord>
+					<KeyWord lang="en">Customization,customization,customization,customization</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Índices Aplicados</Title>
+				<Title lang="es">Indices Aplicados</Title>
+				<Title lang="en">Indexes Applied</Title>
+				<Function>FINA530</Function>
+				<Type>1</Type>
+				<Tables>SEP</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001131</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financiamentos,oficinas,concessionárias</KeyWord>
+					<KeyWord lang="es">Financiacion,talleres,concesionarias</KeyWord>
+					<KeyWord lang="en">Finances,workshops,car_dealers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Tabela de Ioc</Title>
+				<Title lang="es">Tabla de Ioc</Title>
+				<Title lang="en">Ioc Table</Title>
+				<Function>FINA500</Function>
+				<Type>1</Type>
+				<Tables>SEO</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001132</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financiamentos,oficinas,concessionárias,tabelas</KeyWord>
+					<KeyWord lang="es">Financiamientos,talleres,concesionarias,tablas</KeyWord>
+					<KeyWord lang="en">Financials,workshops,concessionnaires,tables</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Planos de Venda</Title>
+				<Title lang="es">Planes de Venta</Title>
+				<Title lang="en">Sales Plans</Title>
+				<Function>FINA520</Function>
+				<Type>1</Type>
+				<Tables>SEN</Tables>
+				<Tables>SEQ</Tables>
+				<Tables>SEO</Tables>
+				<Tables>SEP</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001135</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financiamentos,oficinas,concessionárias,vendas</KeyWord>
+					<KeyWord lang="es">Financiaciones,talleres,concesionarias,ventas</KeyWord>
+					<KeyWord lang="en">Loans,repair_shops,car_dealers,sales</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Administradora Financeira</Title>
+				<Title lang="es">Administradora Financiera</Title>
+				<Title lang="en">Financial Company</Title>
+				<Function>LOJA070</Function>
+				<Type>1</Type>
+				<Tables>SEA</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>12</Owner>
+				<ItemID>0000001137</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cartões,operadoras,cartão,créditos,administradoras</KeyWord>
+					<KeyWord lang="es">Tarjetas,operadoras,tarjeta,creditos,administradoras</KeyWord>
+					<KeyWord lang="en">Cards,operators,card,credit,administrators</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Índices Financeiro</Title>
+				<Title lang="es">Indices Financiero</Title>
+				<Title lang="en">Financial Indexes</Title>
+				<Function>FINA017</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001138</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Avp</KeyWord>
+					<KeyWord lang="es">Avp</KeyWord>
+					<KeyWord lang="en">Avp</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Atualização de Índice</Title>
+				<Title lang="es">Actualizacion de Indice</Title>
+				<Title lang="en">Update Index</Title>
+				<Function>FINA018</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001141</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Avp,cotação,cotações,atualizações</KeyWord>
+					<KeyWord lang="es">Avp,cotizacion,cotizaciones,actualizaciones</KeyWord>
+					<KeyWord lang="en">Avp,quotation,quotations,updates</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Múltiplos Vínculos de Iss</Title>
+				<Title lang="es">Multiplos Vinculos de Iss</Title>
+				<Title lang="en">Iss Multiple Relationships</Title>
+				<Function>FINA270</Function>
+				<Type>1</Type>
+				<Tables>FIM</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001143</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Vinculação,vinculações,serviços,impostos</KeyWord>
+					<KeyWord lang="es">Vinculacion,vinculaciones,servicios,impuestos</KeyWord>
+					<KeyWord lang="en">Association,associations,services,taxes</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Tipos de documentos</Title>
+				<Title lang="es">Tipos de documentos</Title>
+				<Title lang="en">Type Of documents</Title>
+				<Function>CNTA060</Function>
+				<Type>1</Type>
+				<Tables>CN5</Tables>
+				<Tables>FR9</Tables>
+				<Tables>FRD</Tables>
+				<Access>xx   xxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011795</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liberação,liberações,pagamentos,embolsos,categorias,gêneros</KeyWord>
+					<KeyWord lang="es">Autorizacion,autorizaciones,pagos,embolsos,categorias,generos</KeyWord>
+					<KeyWord lang="en">Release,releases,payments,reimburse,categories,genders</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Amarração documentos X Situações</Title>
+				<Title lang="es">Vinculacion documentos X Situaciones</Title>
+				<Title lang="en">Document X Status Binding</Title>
+				<Function>CNTA062</Function>
+				<Type>1</Type>
+				<Tables>CN5</Tables>
+				<Tables>FR9</Tables>
+				<Tables>FRD</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011796</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liberação,pagamentos,contratos,liberações,embolsos,amarrações,situação</KeyWord>
+					<KeyWord lang="es">Autorizacion,pagos,contratos,autorizaciones,embolsos,vinculaciones,situacion</KeyWord>
+					<KeyWord lang="en">Release,payments,contracts,releases,reimburse,binding,situation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Visão Gerencial Financeira</Title>
+				<Title lang="es">Vision de Gestion Financiera</Title>
+				<Title lang="en">Financial Management View</Title>
+				<Function>FINA271</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018844</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Visão,gerencial,financeiro</KeyWord>
+					<KeyWord lang="es">Vision,de_gestion,financiero</KeyWord>
+					<KeyWord lang="en">View,management,financial</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Gestao Financeira</Title>
+			<Title lang="es">Gestion Financ.</Title>
+			<Title lang="en">Finance Manag.</Title>
+			<ItemID>0000011619</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Painel Gestor</Title>
+				<Title lang="es">Panel Gestor</Title>
+				<Title lang="en">Management Panel</Title>
+				<Function>FINA701</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001151</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Painéis,gestores</KeyWord>
+					<KeyWord lang="es">Paneles,gestores</KeyWord>
+					<KeyWord lang="en">Panels,managers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Painel Tesouraria</Title>
+				<Title lang="es">Panel Tesoreria</Title>
+				<Title lang="en">Treasury Panel</Title>
+				<Function>FINA702</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001153</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Tesouraria,painéis</KeyWord>
+					<KeyWord lang="es">Tesoreria,paneles</KeyWord>
+					<KeyWord lang="en">Treasury,panels</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Painel Contas a Pagar</Title>
+				<Title lang="es">Panel Cuentas Por Pagar</Title>
+				<Title lang="en">Accounts Payable Panel</Title>
+				<Function>FINA703</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001155</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Painéis,embolsos,pagamentos</KeyWord>
+					<KeyWord lang="es">Paneles,embolsos,pagos</KeyWord>
+					<KeyWord lang="en">Panels,reimburse,payments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Painel Contas a Receber</Title>
+				<Title lang="es">Panel Cuentas Por Cobrar</Title>
+				<Title lang="en">Accounts Receivable Panel</Title>
+				<Function>FINA704</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001157</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Painéis,recebimentos</KeyWord>
+					<KeyWord lang="es">Paneles,cobros</KeyWord>
+					<KeyWord lang="en">Panels,receipt</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Contas a Receber</Title>
+			<Title lang="es">Cuentas Por Cobrar</Title>
+			<Title lang="en">Accts. Receivable</Title>
+			<ItemID>0000011617</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Funções Contas a Receber</Title>
+				<Title lang="es">Funciones Cuentas Por Cobrar</Title>
+				<Title lang="en">Accounts Receivable Functions</Title>
+				<Function>FINA740</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001163</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Função,recebimentos</KeyWord>
+					<KeyWord lang="es">Funcion,cobros</KeyWord>
+					<KeyWord lang="en">Function,receiving</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Contas a Receber</Title>
+				<Title lang="es">Ctas Por Cobrar</Title>
+				<Title lang="en">Accounts Receivabl</Title>
+				<Function>FINA040</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SA3</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SED</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SM2</Tables>
+				<Tables>SI7</Tables>
+				<Tables>VCB</Tables>
+				<Tables>SEV</Tables>
+				<Tables>AFR</Tables>
+				<Tables>SEZ</Tables>
+				<Tables>SK1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001164</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,titulos,impostos,clientes</KeyWord>
+					<KeyWord lang="es">Financiero,titulos,impuestos,clientes</KeyWord>
+					<KeyWord lang="en">Financial,bills,taxes,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Renegociação de Títulos a Receber</Title>
+				<Title lang="es">Renegociacion de Titulos Por Cobrar</Title>
+				<Title lang="en">Renegotiation Of Bills Receivable</Title>
+				<Function>FINA045</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001168</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Renegociar,provisórios,renegociações</KeyWord>
+					<KeyWord lang="es">Renegociar,provisorio,renegociaciones</KeyWord>
+					<KeyWord lang="en">Renegotiate,provisory,renegotiation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recebimentos Diversos</Title>
+				<Title lang="es">Recepciones Diversas</Title>
+				<Title lang="en">Miscellaneous Collections</Title>
+				<Function>FINA087A</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011557</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recibos,cobros,recebimentos,baixas,titulos,</KeyWord>
+					<KeyWord lang="es">Recibos,cobros,recibos,bajas,titulos</KeyWord>
+					<KeyWord lang="en">Receipts,collections,receipts,writeoffs,bills</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Transferências</Title>
+				<Title lang="es">Transferencias</Title>
+				<Title lang="en">Transfers</Title>
+				<Function>FINA060</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SE8</Tables>
+				<Tables>SEA</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SM2</Tables>
+				<Tables>SI7</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001171</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,transferir,comunicação,bancos,bancárias,comunicações,borderôs</KeyWord>
+					<KeyWord lang="es">Cnab,transferir,comunicacion,bancos,bancarias,comunicaciones,borderos</KeyWord>
+					<KeyWord lang="en">Cnab,transfer,communication,banks,banking,communications,borderaux</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Borderô de Recebimento Com Impostos</Title>
+				<Title lang="es">Bordero de Recepcion Con Impuestos</Title>
+				<Title lang="en">Bordereau Of Taxed Receipts</Title>
+				<Function>FINA061</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SFQ</Tables>
+				<Tables>SEA</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016212</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,transferir,comunicação,borderôs,bancárias,comunicações,cobranças,recebimentos</KeyWord>
+					<KeyWord lang="es">Cnab,transferir,comunicacion,borderos,bancarias,comunicaciones,cobros,cobros</KeyWord>
+					<KeyWord lang="en">Cnab,transfer,communication,bordereau,bank,communication,collections,receipts</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixas a Receber</Title>
+				<Title lang="es">Bajas Por Cobrar</Title>
+				<Title lang="en">Write-off Receiv</Title>
+				<Function>FINA070</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI4</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SI7</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SID</Tables>
+				<Tables>SIC</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001173</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Baixar,titulos,impostos,recebimentos,lotes</KeyWord>
+					<KeyWord lang="es">Bajar,titulos,impuestos,cobros,lotes</KeyWord>
+					<KeyWord lang="en">Writeoff,titles,taxes,receivings,lots</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixas Automáticas de Títulos a Receber</Title>
+				<Title lang="es">Bajas Automaticas de Titulos Por Cobrar</Title>
+				<Title lang="en">Automatic Write-offs Of Bills Receivable</Title>
+				<Function>FINA110</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI4</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001175</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Baixar,titulos,impostos,automáticas,recebimentos</KeyWord>
+					<KeyWord lang="es">Liquidar,titulos,impuestos,automaticas,cobros</KeyWord>
+					<KeyWord lang="en">Writeoff,titles,taxes,automatic,receivings</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Faturas a Receber</Title>
+				<Title lang="es">Fact. Por Cobrar</Title>
+				<Title lang="en">Invoices Receivabl</Title>
+				<Function>FINA280</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001177</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Negociar,negociação,negociações,recebimentos,parcelar,parcelamentos</KeyWord>
+					<KeyWord lang="es">Negociar,negociacion,negociaciones,cobros,pagaraplazo,pagosaplazos</KeyWord>
+					<KeyWord lang="en">Negotiate,negotiation,negotiation,receivings,allotment,installments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cancelar Recibos Diversos</Title>
+				<Title lang="es">Anula Recibos Diversos</Title>
+				<Title lang="en">Cancel Miscellaneous Receipts</Title>
+				<Function>FINA088</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SEL</Tables>
+				<Tables>SEK</Tables>
+				<Tables>SE5</Tables>
+				<Tables>VCB</Tables>
+				<Tables>SAQ</Tables>
+				<Tables>SEX</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001189</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recebimentos,cancelamentos</KeyWord>
+					<KeyWord lang="es">Cobros,anulaciones</KeyWord>
+					<KeyWord lang="en">Receivings,cancelation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Borderô de Cheques</Title>
+				<Title lang="es">Bordero de Cheques</Title>
+				<Title lang="en">Checks Packing Slip</Title>
+				<Function>FINA160</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001178</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Borderôs</KeyWord>
+					<KeyWord lang="es">Borderos</KeyWord>
+					<KeyWord lang="en">Borderaux</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Compensação de Contas a Receber</Title>
+				<Title lang="es">Compensacion de Cuentas Por Cobrar</Title>
+				<Title lang="en">Compensation Of Accounts Receivable</Title>
+				<Function>FINA330</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001182</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Compensar,compensações,adiantamentos,financeiro,recebimentos</KeyWord>
+					<KeyWord lang="es">Compensar,compensaciones,anticipos,financiero,cobros</KeyWord>
+					<KeyWord lang="en">Compensate,compensations,advances,financial,receipt</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liquidação</Title>
+				<Title lang="es">Liquidacion</Title>
+				<Title lang="en">Settlement</Title>
+				<Function>FINA460</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001196</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liquidações,receber,recebimentos,financeiro,negociação,negociações,reliquidação,reliquidações,parcelamentos</KeyWord>
+					<KeyWord lang="es">Liquidaciones,cobrar,cobros,financiero,negociacion,negociaciones,reliquidacion,reliquidaciones,pagoaplazos</KeyWord>
+					<KeyWord lang="en">Settlements,receive,receiving,financial,negotiation,negotiation,resettlement,resettlements,installments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques Recebidos</Title>
+				<Title lang="es">Cheques Cobrados</Title>
+				<Title lang="en">Received Checks</Title>
+				<Function>FINA191</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001192</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recebimentos,terceiros,financeiro,receber</KeyWord>
+					<KeyWord lang="es">Cobros,terceros,financiero,cobrar</KeyWord>
+					<KeyWord lang="en">Receivings,third_parties,financial,receive</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Devolução Cheques</Title>
+				<Title lang="es">Devolucion Cheques</Title>
+				<Title lang="en">Checks Return</Title>
+				<Function>LOJA190</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>12</Owner>
+				<ItemID>0000001194</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Devoluções,cancelamentos,cancelar,financeiro,terceiros</KeyWord>
+					<KeyWord lang="es">Devoluciones,anulaciones,anular,financiero,terceros</KeyWord>
+					<KeyWord lang="en">Returns,cancellations,cancel,financial,third_parties</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Solicitação de Transferência</Title>
+				<Title lang="es">Solicitacion de Transferencia</Title>
+				<Title lang="en">Transfer Request</Title>
+				<Function>FINA620</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001197</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Solicitações,transferências,solicitar,financeiro,receber,títulos</KeyWord>
+					<KeyWord lang="es">Solicitudes,transferencias,solicitar,financiero,cobrar,titulos</KeyWord>
+					<KeyWord lang="en">Requests,transfers,request,financial,receive,titles</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aprovação e Rejeição Da Transferência</Title>
+				<Title lang="es">Aprobacion Y Rechazo de Transferencia</Title>
+				<Title lang="en">Transfer Approval And Rejection</Title>
+				<Function>FINA630</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001200</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Aprovar,aprovações,transferências,títulos,receber,financeiro,recebimentos</KeyWord>
+					<KeyWord lang="es">Aprobar,aprobaciones,transferencias,titulos,cobrar,financiero,cobros</KeyWord>
+					<KeyWord lang="en">Approve,approvals,transfer,titles,receive,financial,receivings</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conciliador Tef</Title>
+				<Title lang="es">Conciliador Tef</Title>
+				<Title lang="en">Eft Reconciliator</Title>
+				<Function>FINA910</Function>
+				<Type>1</Type>
+				<Tables>FIF</Tables>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011895</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Conciliar,conciliação,conciliações,eletrônicas,fundos,transferências</KeyWord>
+					<KeyWord lang="es">Conciliar,conciliacion,conciliaciones,electronicas,fondos,transferencias</KeyWord>
+					<KeyWord lang="en">Conciliate,conciliation,conciliation,eletronic,funds,transfers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Situação Cobrança</Title>
+				<Title lang="es">Situacion Cobranza</Title>
+				<Title lang="en">Collection Status</Title>
+				<Function>FINA022</Function>
+				<Type>1</Type>
+				<Tables>FRV</Tables>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016619</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,cobranças,borderôs,carteiras,transferências,situações</KeyWord>
+					<KeyWord lang="es">Bancos,cobros,borderos,carteras,transferencias,situaciones</KeyWord>
+					<KeyWord lang="en">Banks,invoicing,borderaux,portfolio,transfer,situation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Contas a Pagar</Title>
+			<Title lang="es">Cuentas Por Pagar</Title>
+			<Title lang="en">Accounts Payable</Title>
+			<ItemID>0000011616</ItemID>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Funções Contas a Pagar</Title>
+				<Title lang="es">Funciones Cuentas Por Pagar</Title>
+				<Title lang="en">Accounts Payable Functions</Title>
+				<Function>FINA750</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001206</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Função,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Funcion,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Role,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Contas a Pagar</Title>
+				<Title lang="es">Ctas Por Pagar</Title>
+				<Title lang="en">Accounts Payable</Title>
+				<Function>FINA050</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SA2</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SED</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SM2</Tables>
+				<Tables>SI7</Tables>
+				<Tables>VCB</Tables>
+				<Tables>SEV</Tables>
+				<Tables>AFR</Tables>
+				<Tables>SEZ</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001208</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,títulos,fornecedores,impostos,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Financiero,titulos,proveedores,impuestos,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Financial,titles,suppliers,tax,payments,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixas Pagar Manual</Title>
+				<Title lang="es">Bajas Pagar Manual</Title>
+				<Title lang="en">Write-off Pay Manual</Title>
+				<Function>FINA080</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI4</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SEF</Tables>
+				<Tables>SI7</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001210</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pagamentos,baixar,financeiro,títulos,fornecedores,impostos,lotes,manuais,embolsos</KeyWord>
+					<KeyWord lang="es">Pagos,bajar,financiero,titulos,proveedores,impuestos,lotes,manuales,embolsos</KeyWord>
+					<KeyWord lang="en">Payments,write_off,financial,titles,suppliers,taxes,lots,manual,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixas Pagar Automática</Title>
+				<Title lang="es">Bajas Pagar Automatica</Title>
+				<Title lang="en">Write-off Pay Automatic</Title>
+				<Function>FINA090</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI3</Tables>
+				<Tables>SI4</Tables>
+				<Tables>SI5</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011920</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Automáticas,financeiro,títulos,fornecedores,impostos,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Automaticas,financiero,titulos,proveedores,impuestos,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Automatic,financial,titles,suppliers,taxes,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixa Automática de Multi-filiais</Title>
+				<Title lang="es">Baja Automatica de Multisucursales</Title>
+				<Title lang="en">Automatic Write-off Multi-branches</Title>
+				<Function>FINA091</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011565</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Automáticas,financeiro,títulos,fornecedores,impostos,pagamentos,baixas,embolsos</KeyWord>
+					<KeyWord lang="es">Automaticas,financiero,titulos,proveedores,impuestos,pagos,bajas,embolsos</KeyWord>
+					<KeyWord lang="en">Automatic,financial,titles,suppliers,taxes,payments,writeoff,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Manutenção de Borderô</Title>
+				<Title lang="es">Mantenimiento de Bordero</Title>
+				<Title lang="en">Borderaux Maintenance</Title>
+				<Function>FINA590</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001181</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Borderôs,títulos,pagar,manutenções,impostos</KeyWord>
+					<KeyWord lang="es">Borderos,titulos,pagar,mantenimientos,impuestos</KeyWord>
+					<KeyWord lang="en">Borderaux,titles,pay,maintenance,taxes</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Borderô Pagamentos</Title>
+				<Title lang="es">Bordero Pagos</Title>
+				<Title lang="en">Payments Packing Slip</Title>
+				<Function>FINA240</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SEA</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001214</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Borderôs,títulos,pagar,fornecedores,embolsos</KeyWord>
+					<KeyWord lang="es">Borderos,titulos,pagar,proveedores,embolsos</KeyWord>
+					<KeyWord lang="en">Borderaux,titles,pay,supplier,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Compensação Entre Carteiras</Title>
+				<Title lang="es">Compensacion Entre Carteras</Title>
+				<Title lang="en">Compensation Between Portfolios</Title>
+				<Function>FINA450</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001185</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Compensações,pagar,receber,cec</KeyWord>
+					<KeyWord lang="es">Compensaciones,pagar,cobrar,cec</KeyWord>
+					<KeyWord lang="en">Compensation,pay,receive,cec</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Faturas a Pagar</Title>
+				<Title lang="es">Facturas Por Pagar</Title>
+				<Title lang="en">Invoices Payable</Title>
+				<Function>FINA290</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001218</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Negociar,negociação,negociações,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Negociar,negociacion,negociaciones,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Negotiate,negotiation,negotiation,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques Sobre Títulos</Title>
+				<Title lang="es">Cheques Sobre Titulos</Title>
+				<Title lang="en">Checks On Bills</Title>
+				<Function>FINA390</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001220</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cheque</KeyWord>
+					<KeyWord lang="es">Cheque</KeyWord>
+					<KeyWord lang="en">Check</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Geração de Cheques</Title>
+				<Title lang="es">Generacion de Cheques</Title>
+				<Title lang="en">Check Generation</Title>
+				<Function>FINA190</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001221</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Gerar,criação,criações,criar,emissão,emissões,emitir</KeyWord>
+					<KeyWord lang="es">Generar,creacion,creaciones,crear,emision,emisiones,emitir</KeyWord>
+					<KeyWord lang="en">Generate,creation,creations,create,issue,issues,issue</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Compensação Contas a Pagar</Title>
+				<Title lang="es">Compensacion Cuentas Por Pagar</Title>
+				<Title lang="en">Compensation Payable Accounts</Title>
+				<Function>FINA340</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001224</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Compensar,financeiro,adiantamentos,compensações,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Compensar,financiero,anticipos,compensaciones,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Compensate,financial,advances,compensations,payments,reimburse</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liberação Para Baixa</Title>
+				<Title lang="es">Liberacion Para Baja</Title>
+				<Title lang="en">Release For Write-off</Title>
+				<Function>FINA580</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001236</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liberações,baixas,alçadas,aprovação,aprovações,financeiro,pagamentos,pagar,liberar,embolsos</KeyWord>
+					<KeyWord lang="es">Autorizaciones,bajas,alzadas,aprobacion,aprobaciones,financiero,pagos,pagar,autorizar,embolsos</KeyWord>
+					<KeyWord lang="en">Releases,writeoff,jurisdiction,approval,approvals,financial,payments,pay,release,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Solicitação de Fundos</Title>
+				<Title lang="es">Solicitacion de Fondos</Title>
+				<Title lang="en">Funds Request</Title>
+				<Function>FINA585</Function>
+				<Type>1</Type>
+				<Tables>FJA</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEF</Tables>
+				<Tables>CT2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015716</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Adiantamentos,solicitações</KeyWord>
+					<KeyWord lang="es">Anticipos,solicitudes</KeyWord>
+					<KeyWord lang="en">Advances,requests</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liquidação</Title>
+				<Title lang="es">Liquidacion</Title>
+				<Title lang="en">Settlement</Title>
+				<Function>FINA565</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001238</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liquidações,pagar,negociar,negociação,negociações,reliquidação,reliquidações,parcelar,parcelamentos,financeiro</KeyWord>
+					<KeyWord lang="es">Liquidaciones,pagar,negociar,negociacion,negociaciones,reliquidacion,reliquidaciones,pagaraplazo,pagoaplazos,financiero</KeyWord>
+					<KeyWord lang="en">Settlements,pay,negotiate,negotiation,negotiations,resettlement,resettlements,installments,installments,financial</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Apuração Pis, Cofins e Csl a Pagar</Title>
+				<Title lang="es">Calculo Pis, Cofins Y Csl Por Pagar</Title>
+				<Title lang="en">Calculate Pis, Cofins And Csl Payable</Title>
+				<Function>FINA374</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SFQ</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001240</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Impostos,apurar,apurações,verificação,verificações,averiguação,averiguações</KeyWord>
+					<KeyWord lang="es">Impuestos,calcular,calculos,verificacion,verificaciones,averiguacion,averiguaciones</KeyWord>
+					<KeyWord lang="en">Taxes,calculate,calculations,verification,verification,investigation,investigation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Solicitação de Transferência</Title>
+				<Title lang="es">Solicitud de Transferencia</Title>
+				<Title lang="en">Transfer Request</Title>
+				<Function>FINA621</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018323</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Solicitações,transferências,solicitar,financeiro,pagar,títulos</KeyWord>
+					<KeyWord lang="es">Solicitudes,transferencias,solicitar,financiero,pagar,titulos</KeyWord>
+					<KeyWord lang="en">Requests,transfer,request,financial,pay,titles</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aprovação e Rejeição Da Transferência</Title>
+				<Title lang="es">Aprobacion Y Rechazo de Transferencia</Title>
+				<Title lang="en">Approval And Rejection Of Transfer</Title>
+				<Function>FINA631</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018324</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Aprovar,aprovações,transferências,títulos,pagar,financeiro,recebimentos</KeyWord>
+					<KeyWord lang="es">Aprobar,aprobaciones,transferencias,titulos,pagar,financiero,cobro</KeyWord>
+					<KeyWord lang="en">Approve,approvals,transfer,titles,pay,financial,receivings</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Movimento Bancario</Title>
+			<Title lang="es">Movim. Bancario</Title>
+			<Title lang="en">Bank Transactions</Title>
+			<ItemID>0000011620</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Saldos Bancários</Title>
+				<Title lang="es">Saldos Bancarios</Title>
+				<Title lang="en">Bank Balances</Title>
+				<Function>FINA030</Function>
+				<Type>1</Type>
+				<Tables>SE8</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001245</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,contas,c/C,bancárias</KeyWord>
+					<KeyWord lang="es">Bancos,cuentas,c/C,bancarias</KeyWord>
+					<KeyWord lang="en">Banks,accounts,c/C,banks</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimentos Bancários</Title>
+				<Title lang="es">Movimientos Bancarios</Title>
+				<Title lang="en">Bank Transactions</Title>
+				<Function>FINA100</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Tables>AF8</Tables>
+				<Tables>AF9</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001248</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,financeiro,avulsos,transferências,bancárias</KeyWord>
+					<KeyWord lang="es">Bancos,financiero,sueltos,transferencias,bancarias</KeyWord>
+					<KeyWord lang="en">Banks,financial,detached,transfers,bank</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conciliação Automática</Title>
+				<Title lang="es">Conciliacion Automatica</Title>
+				<Title lang="en">Automatic Conciliation</Title>
+				<Function>FINA473</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015805</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Conciliar,conciliações,reconciliações,automáticas,bancos,financeiro,reconciliar,extratos,cnab</KeyWord>
+					<KeyWord lang="es">Conciliar,conciliaciones,conciliaciones,automaticas,bancos,financiero,conciliar,extractos,cnab</KeyWord>
+					<KeyWord lang="en">Reconcile,reconciliation,reconciliations,automatic,banks,financial,reconcile,statements,cnab</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Reconciliação Bancária</Title>
+				<Title lang="es">Reconciliacion Bancaria</Title>
+				<Title lang="en">Bank Reconciliation</Title>
+				<Function>FINA380</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001254</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Conciliar,conciliações,reconciliações,bancos,financeiro,reconciliar</KeyWord>
+					<KeyWord lang="es">Conciliar,conciliaciones,conciliaciones,bancos,financiero,conciliar</KeyWord>
+					<KeyWord lang="en">Reconcile,reconciliation,reconciliations,banks,financial,reconcile</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Diversos</Title>
+			<Title lang="es">Diversos</Title>
+			<Title lang="en">Miscellaneous</Title>
+			<ItemID>0000011618</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Borderô de Cdci</Title>
+				<Title lang="es">Bordero de Cdci</Title>
+				<Title lang="en">Cdce Packing Slip</Title>
+				<Function>FINA540</Function>
+				<Type>1</Type>
+				<Tables>SEQ</Tables>
+				<Tables>SER</Tables>
+				<Tables>SEM</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001264</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Borderôs,interveniências,créditos,direto,consumidores</KeyWord>
+					<KeyWord lang="es">Borderos,intervenciones,creditos,directo,consumidores</KeyWord>
+					<KeyWord lang="en">Borderaux,intervenience,credits,right,consumers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Controle Darf</Title>
+				<Title lang="es">Control Darf</Title>
+				<Title lang="en">Darf Control</Title>
+				<Function>FINA373</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>FI9</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001266</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Controles,guias,darf,impostos,documentos,arrecadação,arrecadações,receitas,federal,federais</KeyWord>
+					<KeyWord lang="es">Controles,formularios,darf,impuestos,documentos,recaudacion,recaudaciones,ingresos,federal,federales</KeyWord>
+					<KeyWord lang="en">Controls,guides,darf,taxes,documents,collection,collection,income,federal,federal</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Caixinha</Title>
+			<Title lang="es">Caja Chica</Title>
+			<Title lang="en">Petty Cash</Title>
+			<ItemID>0000011613</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Manutenção</Title>
+				<Title lang="es">Mantenimiento</Title>
+				<Title lang="en">Maintenance</Title>
+				<Function>FINA550</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001272</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,financeiro,manutenções</KeyWord>
+					<KeyWord lang="es">Cajachica,financiero,mantenimientos</KeyWord>
+					<KeyWord lang="en">Pettycash,financial,maintenance</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimentos</Title>
+				<Title lang="es">Movimientos</Title>
+				<Title lang="en">Transactions</Title>
+				<Function>FINA560</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001274</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,financeiro,pessoas,adiantamentos,despesas,participantes,jurídicos,movimentação,movimentações</KeyWord>
+					<KeyWord lang="es">Cajachica,financiero,personas,anticipos,gastos,participantes,juridicos,movimiento,movimientos</KeyWord>
+					<KeyWord lang="en">Pettycash,financial,people,advance,expenses,participants,legal,transaction,transactions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liberação de despesas</Title>
+				<Title lang="es">Liberacion de Gastos</Title>
+				<Title lang="en">Expenses Release</Title>
+				<Function>FINA581</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011678</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,financeiro,aprovação,aprovações,liberações,adiantamentos</KeyWord>
+					<KeyWord lang="es">Cajachica,financiero,aprobacion,aprobaciones,autorizaciones,anticipos</KeyWord>
+					<KeyWord lang="en">Pettycash,financial,approval,approval,releases,advances</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rateio Jurídico</Title>
+				<Title lang="es">Prorrateo Juridico</Title>
+				<Title lang="en">Legal Apportion</Title>
+				<Function>FINA562</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000014239</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,financeiro,rateios,jurídicos</KeyWord>
+					<KeyWord lang="es">Cajachica,financiero,prorrateos,juridicos</KeyWord>
+					<KeyWord lang="en">Pettycash,financial,apportionment,legal</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Aplicacoes/Emprest</Title>
+			<Title lang="es">Invers / Prest</Title>
+			<Title lang="en">Investments/Loans</Title>
+			<ItemID>0000001082</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aplicação e Empréstimo</Title>
+				<Title lang="es">Inversiones Y Prestamos</Title>
+				<Title lang="en">Application And Loan</Title>
+				<Function>FINA171</Function>
+				<Type>1</Type>
+				<Tables>SEG</Tables>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001277</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Aplicações,bancos,investimentos,empréstimos</KeyWord>
+					<KeyWord lang="es">Inversiones,bancos,inversiones,prestamos</KeyWord>
+					<KeyWord lang="en">Applications,banks,investments,loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Resgate, Pagamento e Empréstimos</Title>
+				<Title lang="es">Reintegro, Pago Y Prestamo</Title>
+				<Title lang="en">Rescue, Payment And Loans</Title>
+				<Function>FINA181</Function>
+				<Type>1</Type>
+				<Tables>SEG</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SI1</Tables>
+				<Tables>SI2</Tables>
+				<Tables>SI6</Tables>
+				<Tables>SI7</Tables>
+				<Tables>SI8</Tables>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001279</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Aplicação,aplicações,empréstimos,resgates,pagamentos,investimentos,bancos,embolsos</KeyWord>
+					<KeyWord lang="es">Inversion,inversiones,prestamos,reintegros,pagos,inversiones,bancos,embolsos</KeyWord>
+					<KeyWord lang="en">Application,applications,loans,rescue,payments,investment,banks,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Comissoes</Title>
+			<Title lang="es">Comisiones</Title>
+			<Title lang="en">Commissions</Title>
+			<ItemID>0000011614</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Manutenção Das Comissões</Title>
+				<Title lang="es">Mantenimiento de Las Comisiones</Title>
+				<Title lang="en">Commission Maintenance</Title>
+				<Function>MATA490</Function>
+				<Type>1</Type>
+				<Tables>SE3</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001284</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Comissão,manutenções,vendedores</KeyWord>
+					<KeyWord lang="es">Comision,mantenimientos,vendedores</KeyWord>
+					<KeyWord lang="en">Commission,maintenance,sales_representatives</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Atualização do Pagamento de Comissões</Title>
+				<Title lang="es">Actualizacion del Pago de Comisiones</Title>
+				<Title lang="en">Commission Payment Update</Title>
+				<Function>MATA530</Function>
+				<Type>1</Type>
+				<Tables>SE3</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001286</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Comissão,pagamentos,vendedores,embolsos</KeyWord>
+					<KeyWord lang="es">Comision,pagos,vendedores,embolsos</KeyWord>
+					<KeyWord lang="en">Commission,payment,sales_representatives,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Comunic. Bancaria</Title>
+			<Title lang="es">Comunic. Bancaria</Title>
+			<Title lang="en">Bank Communicat.</Title>
+			<ItemID>0000011615</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Arquivo de Cobranças</Title>
+				<Title lang="es">Archivo de Cobros</Title>
+				<Title lang="en">Collector File</Title>
+				<Function>FINA150</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SEE</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001293</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,receber,bancos,envios,arquivos</KeyWord>
+					<KeyWord lang="es">Cnab,cobrar,bancos,envios,archivos</KeyWord>
+					<KeyWord lang="en">Cnab,receive,banks,deliveries,files</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Instrução de Cobranças</Title>
+				<Title lang="es">Instruccion de Cobros</Title>
+				<Title lang="en">Collection Instruction</Title>
+				<Function>FINA151</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>FI2</Tables>
+				<Tables>SEB</Tables>
+				<Tables>SEE</Tables>
+				<Tables>SEA</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001296</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,receber,bancos,envios,instruções</KeyWord>
+					<KeyWord lang="es">Cnab,cobrar,bancos,envios,instrucciones</KeyWord>
+					<KeyWord lang="en">Cnab,receive,banks,sendings,instructions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Retorno de Cobranças</Title>
+				<Title lang="es">Retorno de Cobros</Title>
+				<Title lang="en">Collection Return</Title>
+				<Function>FINA200</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SEE</Tables>
+				<Tables>SEB</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SE3</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001298</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,receber,bancos,retornos</KeyWord>
+					<KeyWord lang="es">Cnab,cobrar,bancos,retornos</KeyWord>
+					<KeyWord lang="en">Cnab,receive,banks,returns</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Arquivo de Pagamentos</Title>
+				<Title lang="es">Archivo de Pagos</Title>
+				<Title lang="en">Payment File</Title>
+				<Function>FINA420</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001299</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,pagar,bancos,envios,arquivos,embolsos</KeyWord>
+					<KeyWord lang="es">Cnab,pagar,bancos,envios,archivos,embolsos</KeyWord>
+					<KeyWord lang="en">Cnab,pay,banks,sendings,files,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Retorno de Pagamentos</Title>
+				<Title lang="es">Retorno de Pagos</Title>
+				<Title lang="en">Return Payments</Title>
+				<Function>FINA430</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001301</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,pagar,bancos,retornos,embolsos</KeyWord>
+					<KeyWord lang="es">Cnab,pagar,bancos,retornos,embolsos</KeyWord>
+					<KeyWord lang="en">Cnab,pay,banks,returns,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Sispag</Title>
+				<Title lang="es">Sispag</Title>
+				<Title lang="en">Sispag</Title>
+				<Function>FINA300</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001304</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,pagar,pagamentos,bancos,retornos</KeyWord>
+					<KeyWord lang="es">Cnab,pagar,pagos,bancos,retornos</KeyWord>
+					<KeyWord lang="en">Cnab,pay,payments,banks,returns</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conciliação Dda</Title>
+				<Title lang="es">Conciliac. Dda</Title>
+				<Title lang="en">Dda Conciliation</Title>
+				<Function>FINA260</Function>
+				<Type>1</Type>
+				<Tables>FIG</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001306</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,direto,débitos,autorizados,conciliar,conciliações</KeyWord>
+					<KeyWord lang="es">Cnab,directo,debitos,autorizados,conciliar,conciliaciones</KeyWord>
+					<KeyWord lang="en">Cnab,direct,debit,authorized,reconcile,reconciliations</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Adm. Fundo Fixo</Title>
+			<Title lang="es">Adm. Fondo Fijo</Title>
+			<Title lang="en">Fixed Fund Mngmt.</Title>
+			<ItemID>0000011409</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Grupo de Gestores</Title>
+				<Title lang="es">Grupo de Gestores</Title>
+				<Title lang="en">Manager Group</Title>
+				<Function>FINA005</Function>
+				<Type>1</Type>
+				<Tables>FRO</Tables>
+				<Tables>FRP</Tables>
+				<Tables>FRQ</Tables>
+				<Tables>FRR</Tables>
+				<Tables>FRS</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011326</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fundos,fixos,grupos</KeyWord>
+					<KeyWord lang="es">Fondos,fijos,grupos</KeyWord>
+					<KeyWord lang="en">Funds,fixed,groups</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Gestor Financeiro</Title>
+				<Title lang="es">Gestor Financiero</Title>
+				<Title lang="en">Financial Manager</Title>
+				<Function>FINA003</Function>
+				<Type>1</Type>
+				<Tables>FRO</Tables>
+				<Tables>FRP</Tables>
+				<Tables>FRQ</Tables>
+				<Tables>FRR</Tables>
+				<Tables>FRS</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011324</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fundos,fixos,gestores</KeyWord>
+					<KeyWord lang="es">Fondos,fijos,gestores</KeyWord>
+					<KeyWord lang="en">Funds,fixed,managers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Administradores Financeiros</Title>
+				<Title lang="es">Administradores Financieros</Title>
+				<Title lang="en">Financial Managers</Title>
+				<Function>FINA002</Function>
+				<Type>1</Type>
+				<Tables>FRO</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011410</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fundos,fixos,administradoras,financeiras</KeyWord>
+					<KeyWord lang="es">Fondos,fijos,administradoras,financieras</KeyWord>
+					<KeyWord lang="en">Funds,fixed,managers,financial</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Grupo de Analistas</Title>
+				<Title lang="es">Grupo de Analistas</Title>
+				<Title lang="en">Analyst Group</Title>
+				<Function>FINA004</Function>
+				<Type>1</Type>
+				<Tables>FRO</Tables>
+				<Tables>FRP</Tables>
+				<Tables>FRQ</Tables>
+				<Tables>FRR</Tables>
+				<Tables>FRS</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011325</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fundos,fixos,grupos</KeyWord>
+					<KeyWord lang="es">Fondos,fijos,grupos</KeyWord>
+					<KeyWord lang="en">Funds,fixed,groups</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aprovadores X Superiores</Title>
+				<Title lang="es">Aprobadores X Superiores</Title>
+				<Title lang="en">Approvers X Superiors</Title>
+				<Function>FINA006</Function>
+				<Type>1</Type>
+				<Tables>FRO</Tables>
+				<Tables>FRP</Tables>
+				<Tables>FRQ</Tables>
+				<Tables>FRR</Tables>
+				<Tables>FRS</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011327</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fundos,fixos,superiores,associação,associações,amarração,amarrações</KeyWord>
+					<KeyWord lang="es">Fondos,fijos,superiores,asociacion,asociaciones,vinculacion,vinculaciones</KeyWord>
+					<KeyWord lang="en">Funds,fixed,greater,association,associations,checklist,checklists</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Viagens</Title>
+			<Title lang="es">Viajes</Title>
+			<Title lang="en">Trip</Title>
+			<ItemID>0000015724</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Log de Integração</Title>
+				<Title lang="es">Log de Integrac.</Title>
+				<Title lang="en">Integration Log</Title>
+				<Function>FINA663</Function>
+				<Type>1</Type>
+				<Tables>FL0</Tables>
+				<Tables>FL1</Tables>
+				<Tables>FL2</Tables>
+				<Tables>FL3</Tables>
+				<Tables>FL4</Tables>
+				<Tables>FL5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015726</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,integrações,logs</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,integraciones,logs</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,integration,logs</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Nível Cargo</Title>
+				<Title lang="es">Nivel Cargo</Title>
+				<Title lang="en">Position Level</Title>
+				<Function>FINA671</Function>
+				<Type>1</Type>
+				<Tables>FL0</Tables>
+				<Tables>FL1</Tables>
+				<Tables>FL2</Tables>
+				<Tables>FL3</Tables>
+				<Tables>FL4</Tables>
+				<Tables>FL5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015729</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,cargos,níveis</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,cargos,niveles</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,positions,levels</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Transferência Participante</Title>
+				<Title lang="es">Transferencia Participante</Title>
+				<Title lang="en">Participant Transfer</Title>
+				<Function>FINA675</Function>
+				<Type>1</Type>
+				<Tables>RD0</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015732</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,participantes,transferências</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,participantes,transferencias</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,participants,transfer</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Backoffice Protheus X Reserve</Title>
+				<Title lang="es">Backoffice Protheus X Reserve</Title>
+				<Title lang="en">Backoffice Protheus X Reserve</Title>
+				<Function>FINA669</Function>
+				<Type>1</Type>
+				<Tables>FL0</Tables>
+				<Tables>FL1</Tables>
+				<Tables>FL2</Tables>
+				<Tables>FL3</Tables>
+				<Tables>FL4</Tables>
+				<Tables>FL5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015727</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,backoffice</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,backoffice</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,backoffice</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Campos Obrigatórios</Title>
+				<Title lang="es">Campos Obligatorios</Title>
+				<Title lang="en">Required Fields</Title>
+				<Function>FINA673</Function>
+				<Type>1</Type>
+				<Tables>FL0</Tables>
+				<Tables>FL1</Tables>
+				<Tables>FL2</Tables>
+				<Tables>FL3</Tables>
+				<Tables>FL4</Tables>
+				<Tables>FL5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015731</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Grupos de despesas</Title>
+				<Title lang="es">Grupos de Gastos</Title>
+				<Title lang="en">Expense Groups</Title>
+				<Function>FINA681</Function>
+				<Type>1</Type>
+				<Tables>FLK</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015776</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Tipo de despesas</Title>
+				<Title lang="es">Tipo de Gastos</Title>
+				<Title lang="en">Expense Type</Title>
+				<Function>FINA679</Function>
+				<Type>1</Type>
+				<Tables>FLG</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015779</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Grupos de Acesso</Title>
+				<Title lang="es">Grupos de Accesso</Title>
+				<Title lang="en">Access Groups</Title>
+				<Function>FINA683</Function>
+				<Type>1</Type>
+				<Tables>FLI</Tables>
+				<Tables>FLL</Tables>
+				<Tables>RD0</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015797</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,acessos</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,accesos</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,accesses</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Assistente de Configuração</Title>
+				<Title lang="es">Asistente de Configuracion</Title>
+				<Title lang="en">Configuration Assistant</Title>
+				<Function>FINA691</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016248</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,parâmetros,configurações,assistentes</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,parametros,configuraciones,asistente</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,parameters,configurations,assistants</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Viagens</Title>
+				<Title lang="es">Viajes</Title>
+				<Title lang="en">Trips</Title>
+				<Function>FINA665</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016283</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viaje</KeyWord>
+					<KeyWord lang="en">Reserve,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Adiantamentos</Title>
+				<Title lang="es">Anticipos</Title>
+				<Title lang="en">Advance</Title>
+				<Function>FINA667</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016284</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Prestação de Contas</Title>
+				<Title lang="es">Prestacion de Cuentas</Title>
+				<Title lang="en">Rendering Of Accounts</Title>
+				<Function>FINA677</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016342</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conferência de Serviços</Title>
+				<Title lang="es">Conferencia de Servicios</Title>
+				<Title lang="en">Service Conference</Title>
+				<Function>FINA685</Function>
+				<Type>1</Type>
+				<Tables>FLQ</Tables>
+				<Tables>FLR</Tables>
+				<Tables>FL6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016540</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,conferências</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,verificaciones</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,check</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conferência de Serviços Ii</Title>
+				<Title lang="es">Verificacion de Servicios Ii</Title>
+				<Title lang="en">Service Check 2</Title>
+				<Function>FINA686</Function>
+				<Type>1</Type>
+				<Tables>FL6</Tables>
+				<Tables>FL7</Tables>
+				<Tables>FL8</Tables>
+				<Tables>FL9</Tables>
+				<Tables>FLA</Tables>
+				<Tables>FLB</Tables>
+				<Tables>FLQ</Tables>
+				<Tables>FLV</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018059</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,conferências</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,verificaciones</KeyWord>
+					<KeyWord lang="en">Reservation,trips,trip,conference</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Consultas</Title>
+		<Title lang="es">&Consultas</Title>
+		<Title lang="en">&Queries</Title>
+		<ItemID>A060000002</ItemID>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">File</Title>
+			<ItemID>0000011666</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Genéricos</Title>
+				<Title lang="es">Genericos</Title>
+				<Title lang="en">Generic</Title>
+				<Function>EDAPP</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001316</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Gerais,geral,generalizados</KeyWord>
+					<KeyWord lang="es">Generales,general,generalizados</KeyWord>
+					<KeyWord lang="en">General,general,generalized</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Contas a Receber</Title>
+			<Title lang="es">Ctas.  Por Cobr.</Title>
+			<Title lang="en">Accts. Receivable</Title>
+			<ItemID>0000011653</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição de Cliente</Title>
+				<Title lang="es">Posicion de Cliente</Title>
+				<Title lang="en">Client Position</Title>
+				<Function>FINC010</Function>
+				<Type>1</Type>
+				<Tables>SC5</Tables>
+				<Tables>SF2</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SC6</Tables>
+				<Tables>SC9</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001319</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,posicionamentos,clientes,licitantes,empresas,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Posiciones,posicionamientos,clientes,licitadores,empresas,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Positions,positioning,customers,bidders,companies,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição de Títulos a Receber</Title>
+				<Title lang="es">Posicion de Titulos a Cobrar</Title>
+				<Title lang="en">Position Receivable Titles</Title>
+				<Function>FINC040</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001320</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Titulos,posições,posicionamentos</KeyWord>
+					<KeyWord lang="es">Titulos,posiciones,posicionamientos</KeyWord>
+					<KeyWord lang="en">Titles,position,positioning</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conciliador Tef</Title>
+				<Title lang="es">Conciliador Tef</Title>
+				<Title lang="en">Eft Reconciliator</Title>
+				<Function>FINA910</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001321</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Conciliadores,fundos,eletrônicas,transferências</KeyWord>
+					<KeyWord lang="es">Conciliadores,fondos,electronicas,transferencias</KeyWord>
+					<KeyWord lang="en">Conciliator,funds,eletronics,transfers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Resumo Geral</Title>
+				<Title lang="es">Resumen General</Title>
+				<Title lang="en">General Summary</Title>
+				<Function>FINC320</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SC5</Tables>
+				<Tables>SC6</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018484</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Contas a Pagar</Title>
+			<Title lang="es">Cuentas Por Pagar</Title>
+			<Title lang="en">Accts. Payable</Title>
+			<ItemID>0000011652</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição de Fornecedor</Title>
+				<Title lang="es">Posicion de Proveedor</Title>
+				<Title lang="en">Supplier Position</Title>
+				<Function>FINC030</Function>
+				<Type>1</Type>
+				<Tables>SC5</Tables>
+				<Tables>SF2</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001324</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,posicionamentos,empresas,participantes,provedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="es">Posiciones,posicionamientos,empresas,participantes,proveedores,licitadores,abastecedores,proveedores</KeyWord>
+					<KeyWord lang="en">Positions,positioning,companies,participants,providers,bidders,suppliers,providers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Posição de Títulos a Pagar</Title>
+				<Title lang="es">Posicion de Titulos Por Pagar</Title>
+				<Title lang="en">Payable documents Position</Title>
+				<Function>FINC050</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001325</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Titulos,posições,posicionamentos</KeyWord>
+					<KeyWord lang="es">Titulos,posiciones,posicionamientos</KeyWord>
+					<KeyWord lang="en">Titles,positions,positioning</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Resumo Geral</Title>
+				<Title lang="es">Resumen General</Title>
+				<Title lang="en">General Summary</Title>
+				<Function>FINC330</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SC7</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000018178</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Movimento Bancario</Title>
+			<Title lang="es">Movim. Bancario</Title>
+			<Title lang="en">Bank Transactions</Title>
+			<ItemID>0000011654</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fluxo de Caixa</Title>
+				<Title lang="es">Flujo de Caja</Title>
+				<Title lang="en">Cash Flow</Title>
+				<Function>FINC021</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE8</Tables>
+				<Tables>SC5</Tables>
+				<Tables>SC6</Tables>
+				<Tables>SB1</Tables>
+				<Tables>SE4</Tables>
+				<Tables>SC7</Tables>
+				<Tables>SF4</Tables>
+				<Tables>SAH</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001328</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,caixas,posição,posições,posicionamentos,tesouraria,análises</KeyWord>
+					<KeyWord lang="es">Flujos,cajas,posicion,posiciones,posicionamientos,tesoreria,analisis</KeyWord>
+					<KeyWord lang="en">Flow,boxes,position,positions,positioning,treasury,analysis</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fluxo Por Natureza</Title>
+				<Title lang="es">Flujo Por Natureza</Title>
+				<Title lang="en">Flow Per Class</Title>
+				<Function>FINC022</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001329</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,caixas,posição,posições,posicionamentos,tesouraria,análises,naturezas,orçamentos</KeyWord>
+					<KeyWord lang="es">Flujos,cajas,posicion,posiciones,posicionamientos,tesoreria,analisis,modalidades,presupuestos</KeyWord>
+					<KeyWord lang="en">Flows,boxes,position,position,positioning,treasury,analysis,class,quotation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fluxo Por Natureza Ll</Title>
+				<Title lang="es"></Title>
+				<Title lang="en">Flow Per Class Ll</Title>
+				<Function>FINC024</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000019638</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,caixas,posição,posições,posicionamento,tesouraria,análises,naturezas,orçamentos</KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en">Flows,cashes,position,positions,position,treasury,analysis,classes,budgets</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçados X Reais Mês</Title>
+				<Title lang="es">Presupuestado X Reales Mes</Title>
+				<Title lang="en">Quoted X Real Month</Title>
+				<Function>FINC720</Function>
+				<Type>1</Type>
+				<Tables>SED</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001332</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Comparativos,análises,orçados,orçadas,realizados,realizadas,naturezas</KeyWord>
+					<KeyWord lang="es">Comparativos,analisis,presupuestados,presupuestadas,realizados,realizadas,modalidades</KeyWord>
+					<KeyWord lang="en">Comparative,analysis,quoted,quoted,realized,realized,class</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçados X Reais Ano</Title>
+				<Title lang="es">Presupuestado X Reales Ano</Title>
+				<Title lang="en">Quoted X Real Year</Title>
+				<Function>FINC730</Function>
+				<Type>1</Type>
+				<Tables>SED</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001333</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Comparativos,análises,orçados,orçadas,realizados,realizadas,naturezas</KeyWord>
+					<KeyWord lang="es">Comparativos,analisis,presupuestados,presupuestadas,realizados,realizadas,modalidades</KeyWord>
+					<KeyWord lang="en">Comparative,analysis,quoted,quoted,realized,realized,class</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Histórico Fluxo Por Natureza</Title>
+				<Title lang="es">Historial Flujo Por Modalidad</Title>
+				<Title lang="en">Flow History By Class</Title>
+				<Function>FINC023</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001330</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,históricos,caixas,posições,posicionamentos,tesouraria,análises,naturezas,comparativos,posições</KeyWord>
+					<KeyWord lang="es">Flujos,historiales,cajas,posiciones,posiciones,tesoreria,analisis,modalidades,comparativos,posiciones</KeyWord>
+					<KeyWord lang="en">Flows,histories,cash,positions,positioning,treasury,analysis,natures,comparative,positions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Cons. Financeiras</Title>
+			<Title lang="es">Cons. Financieras</Title>
+			<Title lang="en">Financial Query</Title>
+			<ItemID>0000001315</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rastreamento</Title>
+				<Title lang="es">Rastreo</Title>
+				<Title lang="en">Trackimg</Title>
+				<Function>FINA250</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001336</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Rastros,rastrear,rastreamentos,pagar,receber</KeyWord>
+					<KeyWord lang="es">Rastros,rastrear,rastreos,pagar,cobrar</KeyWord>
+					<KeyWord lang="en">Tracks,track,tracking,pay,receive</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Relatorios</Title>
+		<Title lang="es">&Informes</Title>
+		<Title lang="en">&Reports</Title>
+		<ItemID>A060000003</ItemID>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">File</Title>
+			<ItemID>0000011629</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Clientes</Title>
+				<Title lang="es">Clientes</Title>
+				<Title lang="en">Customers</Title>
+				<Function>MATR020</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001338</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Licitantes,empresas,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Licitadores,empresas,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Bidders,companies,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fornecedores</Title>
+				<Title lang="es">Proveedores</Title>
+				<Title lang="en">Vendors</Title>
+				<Function>MATR030</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>2</Owner>
+				<ItemID>0000001339</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Empresas,participantes,provedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="es">Empresas,participantes,proveedores,licitadores,abastecedores,proveedores</KeyWord>
+					<KeyWord lang="en">Companies,participants,providers,bidders,suppliers,providers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Ficha Cadastral</Title>
+				<Title lang="es">Ficha de Registro</Title>
+				<Title lang="en">Registration Card</Title>
+				<Function>MATR040</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001340</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fichas,cadastrais,cadastros</KeyWord>
+					<KeyWord lang="es">Fichas,deregistro,registros</KeyWord>
+					<KeyWord lang="en">Forms,register,register</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Vendedores</Title>
+				<Title lang="es">Vendedores</Title>
+				<Title lang="en">Sales Represent.</Title>
+				<Function>MATR050</Function>
+				<Type>1</Type>
+				<Tables>SA3</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001341</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Provedores,pessoas,canal,canais</KeyWord>
+					<KeyWord lang="es">Proveedores,personas,canal,canales</KeyWord>
+					<KeyWord lang="en">Providers,people,channel,channels</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Bancos</Title>
+				<Title lang="es">Bancos</Title>
+				<Title lang="en">Banks</Title>
+				<Function>MATR070</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001342</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Contas,agências</KeyWord>
+					<KeyWord lang="es">Cuentas,agencias</KeyWord>
+					<KeyWord lang="en">Accounts,branches</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Relação Naturezas</Title>
+				<Title lang="es">Relacion Modalidades</Title>
+				<Title lang="en">Class Relation</Title>
+				<Function>FINR010</Function>
+				<Type>1</Type>
+				<Tables>SED</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001343</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Financeiro,classificação,classificações,categorias,classes,condição,condições,gêneros,tipos</KeyWord>
+					<KeyWord lang="es">Financiero,clasificacion,clasificaciones,categorias,clases,condicion,condiciones,generos,tipos</KeyWord>
+					<KeyWord lang="en">Financial,classification,classifications,categories,classes,condition,conditions,types,types</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Mala Direta-cartas</Title>
+				<Title lang="es">Correo Dir. Cartas</Title>
+				<Title lang="en">Direct Mail-letter</Title>
+				<Function>LOJR060</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>12</Owner>
+				<ItemID>0000001346</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Contas a Receber</Title>
+			<Title lang="es">Ctas. Por Cobrar</Title>
+			<Title lang="en">Accts. Receivable</Title>
+			<ItemID>0000011633</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Receber</Title>
+				<Title lang="es">Titulos Por Cobrar</Title>
+				<Title lang="en">Receivable Titles</Title>
+				<Function>FINR130</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001349</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recebimentos</KeyWord>
+					<KeyWord lang="es">Cobros</KeyWord>
+					<KeyWord lang="en">Receipt</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Receber Por Natureza</Title>
+				<Title lang="es">Titulos a Cobrar Por Modalidad</Title>
+				<Title lang="en">Receivable Titles By Class</Title>
+				<Function>FINR138</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000014094</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Naturezas,recebimentos</KeyWord>
+					<KeyWord lang="es">Modalidades,cobros</KeyWord>
+					<KeyWord lang="en">Class,receivings</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Receber Por Vendedor</Title>
+				<Title lang="es">Titulos a Cobrar Por Vendedor</Title>
+				<Title lang="en">Receivable Titles By Sales Representative</Title>
+				<Function>FINR137</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001350</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recebimentos,vendedores</KeyWord>
+					<KeyWord lang="es">Cobros,vendedores</KeyWord>
+					<KeyWord lang="en">Receivings,sales_representatives</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recebimento Diversos</Title>
+				<Title lang="es">Cobros Diversos</Title>
+				<Title lang="en">Diverse Receivings</Title>
+				<Function>FINR087</Function>
+				<Type>1</Type>
+				<Tables>SEL</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001354</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recibos,cobranças,recebimentos</KeyWord>
+					<KeyWord lang="es">Recibos,cobros,cobros</KeyWord>
+					<KeyWord lang="en">Receipts,billing,receiving</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recebimento Diversos X Clientes</Title>
+				<Title lang="es">Recepcion Diversos Vs Clientes</Title>
+				<Title lang="en">Diverse Receivings X Customers</Title>
+				<Function>FINR898</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SEL</Tables>
+				<Tables>VCB</Tables>
+				<Tables>SAQ</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001355</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Receber,recebimentos,clientes,licitantes,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Cobrar,cobros,clientes,licitadores,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Receive,receivings,customers,bidders,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Recibos Por Cliente</Title>
+				<Title lang="es">Informe de Recibos Por Cliente</Title>
+				<Title lang="en">Receipt Report By Client</Title>
+				<Function>FINR899</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SEL</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001356</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Receber,recebimentos,clientes,licitantes,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Cobrar,cobros,clientes,licitadores,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Receive,receivings,customers,bidders,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Histórico Clientes</Title>
+				<Title lang="es">Historial Clientes</Title>
+				<Title lang="en">Client History</Title>
+				<Function>FINR270</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001358</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Históricos,licitantes,compradores,consumidores,fregueses,empresas</KeyWord>
+					<KeyWord lang="es">Historiales,licitadores,compradores,consumidores,clientes,empresas</KeyWord>
+					<KeyWord lang="en">History,bidders,buyers,consumers,customers,company</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Juros Recebidos</Title>
+				<Title lang="es">Intereses Cobrados</Title>
+				<Title lang="en">Interest Collected</Title>
+				<Function>FINR280</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001359</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Devidos</KeyWord>
+					<KeyWord lang="es">Debidos</KeyWord>
+					<KeyWord lang="en">Due</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Juros devidos Não Pagos</Title>
+				<Title lang="es">Intereses Adeudados No Pagados</Title>
+				<Title lang="en">Interest Due Not Paid</Title>
+				<Function>FINR290</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001360</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Juros</KeyWord>
+					<KeyWord lang="es">Interes</KeyWord>
+					<KeyWord lang="en">Interests</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Maiores devedores</Title>
+				<Title lang="es">Mayores deudores</Title>
+				<Title lang="en">Largest debtors</Title>
+				<Function>FINR300</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001361</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Ranking</KeyWord>
+					<KeyWord lang="es">Ranking</KeyWord>
+					<KeyWord lang="en">Rank</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aging</Title>
+				<Title lang="es">Aging</Title>
+				<Title lang="en">Aging</Title>
+				<Function>FINR133</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001362</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição Geral Cobrança</Title>
+				<Title lang="es">Posicion General Cobro</Title>
+				<Title lang="en">General Billing Position</Title>
+				<Function>FINR320</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SC6</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001363</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,gerais,cobranças</KeyWord>
+					<KeyWord lang="es">Posiciones,generales,cobros</KeyWord>
+					<KeyWord lang="en">Positions,general,collection</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição Clientes</Title>
+				<Title lang="es">Posicion Clientes</Title>
+				<Title lang="en">Customer Position</Title>
+				<Function>FINR340</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001364</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,licitantes,compradores,consumidores,fregueses,empresas</KeyWord>
+					<KeyWord lang="es">Posiciones,licitadores,compradores,consumidores,clientes,empresas</KeyWord>
+					<KeyWord lang="en">Positions,bidders,buyers,consumers,customers,companies</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Sugestão de Bloqueio</Title>
+				<Title lang="es">Sugerencia de Bloqueo</Title>
+				<Title lang="en">Block Suggestion</Title>
+				<Function>FINR450</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SM2</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001366</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Sugestões,bloqueios,travas,impedimentos</KeyWord>
+					<KeyWord lang="es">Sugestiones,bloqueos,trabas,impedimentos</KeyWord>
+					<KeyWord lang="en">Suggestions,blocks,locks,foreclosure</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Boleto Genérico</Title>
+				<Title lang="es">Boleto Generico</Title>
+				<Title lang="en">Generic Bill</Title>
+				<Function>FINR600</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001367</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Boletos,genéricos,gerais,geral,generalizados</KeyWord>
+					<KeyWord lang="es">Boletas,genericos,generales,general,generalizados</KeyWord>
+					<KeyWord lang="en">Slips,generic,general,general,generalized</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emissão de Faturas</Title>
+				<Title lang="es">Emision de Facturas</Title>
+				<Title lang="en">Issue Invoices</Title>
+				<Function>DUPLI</Function>
+				<Type>3</Type>
+				<Tables>SE1</Tables>
+				<Tables>SD2</Tables>
+				<Tables>SF2</Tables>
+				<Tables>SF4</Tables>
+				<Tables>SA4</Tables>
+				<Tables>SA3</Tables>
+				<Tables>SA1</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>6</Owner>
+				<ItemID>0000001368</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Faturamento,emissões</KeyWord>
+					<KeyWord lang="es">Facturacion,emisiones</KeyWord>
+					<KeyWord lang="en">Invoicing,issues</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos Enviados Ao Banco</Title>
+				<Title lang="es">Titulos Enviados Al Banco</Title>
+				<Title lang="en">Titles Sent To The Bank</Title>
+				<Function>FINR660</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SEE</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001369</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cobranças,bancos,bancários,bancárias</KeyWord>
+					<KeyWord lang="es">Cobranzas,bancos,bancarios,bancarias</KeyWord>
+					<KeyWord lang="en">Billing,banks,banks,banks</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Boleto - Rdmake</Title>
+				<Title lang="es">Boleta - Rdmake</Title>
+				<Title lang="en">Slip - Rdmake</Title>
+				<Function>FINR740</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001370</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Boletos</KeyWord>
+					<KeyWord lang="es">Boletas</KeyWord>
+					<KeyWord lang="en">Slips</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Eficiência Cobrança</Title>
+				<Title lang="es">Eficiencia Cobro</Title>
+				<Title lang="en">Billing Efficiency</Title>
+				<Function>FINR750</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001371</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cobranças,eficiências</KeyWord>
+					<KeyWord lang="es">Cobros,eficiencias</KeyWord>
+					<KeyWord lang="en">Collection,efficiency</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Livro de Duplicatas</Title>
+				<Title lang="es">Libro de Pagares</Title>
+				<Title lang="en">Invoice Book</Title>
+				<Function>FINR020</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001372</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Livros,títulos</KeyWord>
+					<KeyWord lang="es">Libros,titulos</KeyWord>
+					<KeyWord lang="en">Books,titles</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimento Mês a Mês</Title>
+				<Title lang="es">Movimiento Mes a Mes</Title>
+				<Title lang="en">Transaction Every Month</Title>
+				<Function>FINR801</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001373</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Movimentos,meses,comparativos,mensais,mensal</KeyWord>
+					<KeyWord lang="es">Movimientos,meses,comparativos,mensuales,mensual</KeyWord>
+					<KeyWord lang="en">Transactions,months,comparative,monthly,monthly</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Retenção Inss</Title>
+				<Title lang="es">Retencion Inss</Title>
+				<Title lang="en">Inss Withholding</Title>
+				<Function>FINR860</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001378</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Impostos,retenções</KeyWord>
+					<KeyWord lang="es">Impuestos,retenciones</KeyWord>
+					<KeyWord lang="en">Taxes,withholding</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Receber Com Retenção de Impostos</Title>
+				<Title lang="es">Titulos Por Cobrar Con Retencion de Impuestos</Title>
+				<Title lang="en">Receivable Titles With Tax Withholding</Title>
+				<Function>FINR940</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001379</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Retenções</KeyWord>
+					<KeyWord lang="es">Retenciones</KeyWord>
+					<KeyWord lang="en">Witholding</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Receber Nf-e</Title>
+				<Title lang="es">Titulos Por Cobrar E-fact</Title>
+				<Title lang="en">Receivable Titles Nf-e</Title>
+				<Function>FINR139</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001383</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Notas,fiscal,fiscais,eletrônicas</KeyWord>
+					<KeyWord lang="es">Facturas,fiscal,fiscales,electronicas</KeyWord>
+					<KeyWord lang="en">Invoices,tax,tax,electronic</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liquidação (cr)</Title>
+				<Title lang="es">Liquidacion (cr)</Title>
+				<Title lang="en">Settlement (cr)</Title>
+				<Function>FINR501</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001385</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liquidações,negociação,negociações,reliquidação,reliquidações,parcelamentos</KeyWord>
+					<KeyWord lang="es">Liquidaciones,negociacion,negociaciones,reliquidacion,reliquidaciones,pagoaplazos</KeyWord>
+					<KeyWord lang="en">Settlements,negotiation,negotiations,renegotiation,renegotiations,installments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Quitação de Débitos</Title>
+				<Title lang="es">Liquidac. de debitos</Title>
+				<Title lang="en">Debit Settlement</Title>
+				<Function>FINR127</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SA1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001386</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Quitações,débitos,clientes,receber,licitantes,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Liquidaciones,debitos,clientes,cobrar,licitadores,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Settlements,debit,customers,receive,bidders,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques devolvidos</Title>
+				<Title lang="es">Cheques devueltos</Title>
+				<Title lang="en">Returned Checks</Title>
+				<Function>LOJR190</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011683</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Devolução,devoluções</KeyWord>
+					<KeyWord lang="es">Devolucion,devoluciones</KeyWord>
+					<KeyWord lang="en">Return,return</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Contas a Pagar</Title>
+			<Title lang="es">Cuentas Por Pagar</Title>
+			<Title lang="en">Accounts Payable</Title>
+			<ItemID>0000011632</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Pagar</Title>
+				<Title lang="es">Titulos Por Pagar</Title>
+				<Title lang="en">Payable Titles</Title>
+				<Function>FINR150</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001392</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Pagar Por Natureza</Title>
+				<Title lang="es">Titulos Por Pagar Por Modalidad</Title>
+				<Title lang="en">Payable Titles By Class</Title>
+				<Function>FINR158</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000014095</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Naturezas,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Modalidades,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Classes,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emissão Borderôs</Title>
+				<Title lang="es">Emision Borderos</Title>
+				<Title lang="en">Issue Borderaux</Title>
+				<Function>FINR170</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011658</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Emissões</KeyWord>
+					<KeyWord lang="es">Emisiones</KeyWord>
+					<KeyWord lang="en">Emissions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição Fornecedores</Title>
+				<Title lang="es">Posicion Proveedores</Title>
+				<Title lang="en">Supplier Position</Title>
+				<Function>FINR350</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001409</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,situação,situações,provedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="es">Posiciones,situacion,situaciones,proveedores,licitadores,abastecedores,provisores</KeyWord>
+					<KeyWord lang="en">Positions,status,status,providers,bidders,suppliers,providers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relação de Cheques</Title>
+				<Title lang="es">Relacion de Cheques</Title>
+				<Title lang="en">Check List</Title>
+				<Function>FINR400</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001412</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relações</KeyWord>
+					<KeyWord lang="es">Relaciones</KeyWord>
+					<KeyWord lang="en">Relations</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques Especiais</Title>
+				<Title lang="es">Cheques Especiales</Title>
+				<Title lang="en">Special Checks</Title>
+				<Function>FINR460</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001414</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cheques</KeyWord>
+					<KeyWord lang="es">Cheques</KeyWord>
+					<KeyWord lang="en">Checks</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Impressão de Cheques</Title>
+				<Title lang="es">Impresion de Cheques</Title>
+				<Title lang="en">Printing Checks</Title>
+				<Function>FINR480</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001416</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Impressões</KeyWord>
+					<KeyWord lang="es">Impresiones</KeyWord>
+					<KeyWord lang="en">Impressions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aging</Title>
+				<Title lang="es">Aging</Title>
+				<Title lang="en">Aging</Title>
+				<Function>FINR134</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA2</Tables>
+				<Tables>SA6</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001417</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cópia de Cheques</Title>
+				<Title lang="es">Copia de Cheques</Title>
+				<Title lang="en">Copy Of Checks</Title>
+				<Function>FINR490</Function>
+				<Type>1</Type>
+				<Tables>SEF</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001420</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cópias,réplicas</KeyWord>
+					<KeyWord lang="es">Copias,copias_fieles</KeyWord>
+					<KeyWord lang="en">Copy,copy</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques Cancelados</Title>
+				<Title lang="es">Cheques Anulados</Title>
+				<Title lang="en">Cancelled Checks</Title>
+				<Function>FINR540</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001422</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cancelamentos</KeyWord>
+					<KeyWord lang="es">Anulaciones</KeyWord>
+					<KeyWord lang="en">Cancelation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Borderô Pagamentos</Title>
+				<Title lang="es">Bordero Pagos</Title>
+				<Title lang="en">Borderaux Payments</Title>
+				<Function>FINR710</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001424</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Borderôs,embolsos</KeyWord>
+					<KeyWord lang="es">Borderos,embolsos</KeyWord>
+					<KeyWord lang="en">Borderaux,imbursement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Eficiência Contas a Pagar</Title>
+				<Title lang="es">Eficiencia Cuentas Por Pagar</Title>
+				<Title lang="en">Accounts Payable Efficiency</Title>
+				<Function>FINR760</Function>
+				<Type>1</Type>
+				<Tables>SA3</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001426</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Eficiências</KeyWord>
+					<KeyWord lang="es">Eficiencias</KeyWord>
+					<KeyWord lang="en">Efficiencies</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Mapa de Rateio</Title>
+				<Title lang="es">Mapa de Prorrateo</Title>
+				<Title lang="en">Apportionment Map</Title>
+				<Function>FINR195</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SEK</Tables>
+				<Tables>CTK</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001434</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Mapas,rateios</KeyWord>
+					<KeyWord lang="es">Mapas,prorrateos</KeyWord>
+					<KeyWord lang="en">Maps,apportionments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emissão de Darf</Title>
+				<Title lang="es">Emision de Darf</Title>
+				<Title lang="en">Generate D a R F</Title>
+				<Function>FINRSRF</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001436</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Emissões,impostos,guias,pagamentos,embolsos,documentos,arrecadação,arrecadações,receitas,federal,federais</KeyWord>
+					<KeyWord lang="es">Emisiones,impuestos,formularios,pagos,embolsos,documentos,recaudacion,recaudaciones,fiscos,federal,federales</KeyWord>
+					<KeyWord lang="en">Emissions,taxes,guides,paymetns,imbursements,documents,collection,collections,income,federal,federal</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emissão de Gps</Title>
+				<Title lang="es">Emision de Gps</Title>
+				<Title lang="en">Generate G P S</Title>
+				<Function>FINRGPS</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001438</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Guias,impostos,emissões,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Formularios,impuestos,emisiones,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Guides,taxes,emissions,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Posição Geral Contas a Pagar</Title>
+				<Title lang="es">Posicion General Cuentas Por Pagar</Title>
+				<Title lang="en">Accounts Payable General Position</Title>
+				<Function>FINR330</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SC7</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001441</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Posições,gerais,pagamentos,embolsos</KeyWord>
+					<KeyWord lang="es">Posiciones,generales,pagos,embolsos</KeyWord>
+					<KeyWord lang="en">Positions,general,payments,imbursements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Retenção Impostos</Title>
+				<Title lang="es">Retencion Impuestos</Title>
+				<Title lang="en">Tax Withholding</Title>
+				<Function>FINR865</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001443</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Retenções</KeyWord>
+					<KeyWord lang="es">Retenciones</KeyWord>
+					<KeyWord lang="en">Withholdings</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos a Pagar Com Retenção de Impostos</Title>
+				<Title lang="es">Titulos Por Pagar Con Retencion de Impuestos</Title>
+				<Title lang="en">Payable Titles With Tax Withholding</Title>
+				<Function>FINR855</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001446</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Retenções</KeyWord>
+					<KeyWord lang="es">Retenciones</KeyWord>
+					<KeyWord lang="en">Withholding</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Aglutinadores</Title>
+				<Title lang="es">Informe de Aglutinadores</Title>
+				<Title lang="en">Grouping Report</Title>
+				<Function>FINR875</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001448</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relatórios,aglutinação,aglutinações,aglutinados,aglutinadas</KeyWord>
+					<KeyWord lang="es">Informes,agrupacion,agrupaciones,agrupados,agrupadas</KeyWord>
+					<KeyWord lang="en">Reports,grouping,groupings,grouped,grouped</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Aglutinação de Imposto</Title>
+				<Title lang="es">Informe de Aglutinacion del Impuesto</Title>
+				<Title lang="en">Tax Grouping Information</Title>
+				<Function>FINR930</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001450</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Impostos,aglutinações,relatórios</KeyWord>
+					<KeyWord lang="es">Impuestos,agrupaciones,informes</KeyWord>
+					<KeyWord lang="en">Taxes,grouping,reports</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liquidações (cp)</Title>
+				<Title lang="es">Liquidaciones (cp)</Title>
+				<Title lang="en">Settlements (cp)</Title>
+				<Function>FINR502</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001456</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pagar,liquidação</KeyWord>
+					<KeyWord lang="es">Pagar,liquidacion</KeyWord>
+					<KeyWord lang="en">Pay,settlement</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Demonstrativo Pis, Cofins e Csl</Title>
+				<Title lang="es">Est. demos. Pis, Cofins Y Csl</Title>
+				<Title lang="en">Statement Pis, Cofins And Csl</Title>
+				<Function>FINR895</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SFQ</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001466</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pcc,csll,impostos,demonstrativos</KeyWord>
+					<KeyWord lang="es">Pcc,csll,impuestos,estados_demostrativos</KeyWord>
+					<KeyWord lang="en">Pcc,csll,taxes,statements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Impostos Por Fornecedores</Title>
+				<Title lang="es">Impuestos Por Proveedores</Title>
+				<Title lang="en">Taxes By Supplier</Title>
+				<Function>FINR355</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000013672</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Provedores,licitantes,abastecedores,provisores</KeyWord>
+					<KeyWord lang="es">Proveedores,licitadores,abastecedores,provisores</KeyWord>
+					<KeyWord lang="en">Providers,bidders,suppliers,providers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Comissoes</Title>
+			<Title lang="es">Comisiones</Title>
+			<Title lang="en">Commissions</Title>
+			<ItemID>0000011630</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Previsão de Comissões</Title>
+				<Title lang="es">Prevision de Comisiones</Title>
+				<Title lang="en">Commission Forecast</Title>
+				<Function>FINR610</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA3</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001472</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Previsões,comissão</KeyWord>
+					<KeyWord lang="es">Previsiones,comision</KeyWord>
+					<KeyWord lang="en">Forecasts,commission</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relação de Comissões</Title>
+				<Title lang="es">Relacion de Comisiones</Title>
+				<Title lang="en">Commission List</Title>
+				<Function>MATR540</Function>
+				<Type>1</Type>
+				<Tables>SA3</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>5</Owner>
+				<ItemID>0000001474</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relações,comissão</KeyWord>
+					<KeyWord lang="es">Relaciones,comision</KeyWord>
+					<KeyWord lang="en">Lists,comission</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liberação de documento</Title>
+				<Title lang="es">Liberacion de documento</Title>
+				<Title lang="en">Document Release</Title>
+				<Function>FINR585</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011421</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liberações,aprovações,aprovação,documentos</KeyWord>
+					<KeyWord lang="es">Liberaciones,aprobaciones,aprobacion,documentos</KeyWord>
+					<KeyWord lang="en">Releases,approvers,approval,documents</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Movimento Bancario</Title>
+			<Title lang="es">Movim. Bancario</Title>
+			<Title lang="en">Bank Transactions</Title>
+			<ItemID>0000011634</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Extrato Bancário</Title>
+				<Title lang="es">Extracto Bancario</Title>
+				<Title lang="en">Bank Statement</Title>
+				<Function>FINR470</Function>
+				<Type>1</Type>
+				<Tables>SE8</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001482</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Bancos,bancários,bancárias,extratos</KeyWord>
+					<KeyWord lang="es">Bancos,bancarios,bancarias,extractos</KeyWord>
+					<KeyWord lang="en">Banks,banking,banking,statements</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimento Financeiro Diário</Title>
+				<Title lang="es">Movimiento Financiero Diario</Title>
+				<Title lang="en">Daily Financial Statement</Title>
+				<Function>FINR530</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Tables>SEG</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001484</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Movimentos,diários,movimentação,movimentações</KeyWord>
+					<KeyWord lang="es">Movimientos,diarios,movimiento,movimientos</KeyWord>
+					<KeyWord lang="en">Transactions,daily,transactions,transactions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimento Bancária</Title>
+				<Title lang="es">Movimiento Bancario</Title>
+				<Title lang="en">Bank Transaction</Title>
+				<Function>FINR620</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001486</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Movimentos,bancários,bancárias,movimentação,movimentações</KeyWord>
+					<KeyWord lang="es">Movimientos,bancarios,bancarias,movimiento,movimientos</KeyWord>
+					<KeyWord lang="en">Transations,banking,banking,transactions,transactions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimento Caixa Diário</Title>
+				<Title lang="es">Movimiento Caja Diario</Title>
+				<Title lang="en">Daily Cash Movement</Title>
+				<Function>FINR120</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SED</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001487</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixas,diários,movimentos,movimentação,movimentações</KeyWord>
+					<KeyWord lang="es">Cajas,diarios,movimientos,movimiento,movimientos</KeyWord>
+					<KeyWord lang="en">Boxes,daily,transactions,transaction,transactions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fluxo Caixa Realizado</Title>
+				<Title lang="es">Flujo Caja Realizado</Title>
+				<Title lang="en">Realized Cash Flow</Title>
+				<Function>FINR770</Function>
+				<Type>1</Type>
+				<Tables>SE8</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001489</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,caixas,realizados,realizadas</KeyWord>
+					<KeyWord lang="es">Flujos,cajas,realizados,realizadas</KeyWord>
+					<KeyWord lang="en">Flows,boxes,realized,realized</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relação de Baixa Por Natureza</Title>
+				<Title lang="es">Relacion de Baja Por Modalidad</Title>
+				<Title lang="en">Write-off List By Nature</Title>
+				<Function>FINR198</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000014096</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relações,baixas,naturezas,tipos,classificação,classificações</KeyWord>
+					<KeyWord lang="es">Relaciones,bajas,modalidades,tipos,clasificacion,clasificaciones</KeyWord>
+					<KeyWord lang="en">Lists,writeoffs,classes,types,classification,classification</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Fluxo Caixa Analítico</Title>
+				<Title lang="es">Flujo Caja Analitico</Title>
+				<Title lang="en">Detailed Cash Flow</Title>
+				<Function>FINR140</Function>
+				<Type>1</Type>
+				<Tables>SE8</Tables>
+				<Tables>SA6</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SC5</Tables>
+				<Tables>SC6</Tables>
+				<Tables>SC7</Tables>
+				<Tables>SE4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001491</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Fluxos,caixas,analíticos,analíticas</KeyWord>
+					<KeyWord lang="es">Flujos,cajas,analiticos,analiticas</KeyWord>
+					<KeyWord lang="en">Flows,boxes,detailed,detailed</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relação de Baixas</Title>
+				<Title lang="es">Relacion de Bajas</Title>
+				<Title lang="en">Write-off List</Title>
+				<Function>FINR190</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001494</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relações</KeyWord>
+					<KeyWord lang="es">Relaciones</KeyWord>
+					<KeyWord lang="en">Lists</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixas Por Lote</Title>
+				<Title lang="es">Bajas Por Lote</Title>
+				<Title lang="en">Postings By Lot</Title>
+				<Function>FINR180</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001496</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Lotes</KeyWord>
+					<KeyWord lang="es">Lotes</KeyWord>
+					<KeyWord lang="en">Batches</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Resumo Financeiro</Title>
+				<Title lang="es">Resumen Financier</Title>
+				<Title lang="en">Financial Summary</Title>
+				<Function>FINR840</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001506</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Resumos</KeyWord>
+					<KeyWord lang="es">Resumos</KeyWord>
+					<KeyWord lang="en">Summary</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Diário Auxiliar</Title>
+				<Title lang="es">Diario Auxiliar</Title>
+				<Title lang="en">Daily Auxiliary</Title>
+				<Function>FINR510</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001508</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Diários,auxiliares</KeyWord>
+					<KeyWord lang="es">Diarios,auxiliares</KeyWord>
+					<KeyWord lang="en">Daily,auxiliary</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Razonete</Title>
+				<Title lang="es">Cuenta T</Title>
+				<Title lang="en">Trial Balance</Title>
+				<Function>FINR550</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SA1</Tables>
+				<Tables>SA2</Tables>
+				<Tables>VCB</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001510</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Razonetes</KeyWord>
+					<KeyWord lang="es">Cuentas_t</KeyWord>
+					<KeyWord lang="en">Trial_ledger</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Diário Sintético Por Natureza</Title>
+				<Title lang="es">Diario Sintetico Por Modalidad</Title>
+				<Title lang="en">Condensed Daily By Modality</Title>
+				<Function>FINR200</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001514</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Diários,sintéticos,naturezas,tipos,classificação,classificações</KeyWord>
+					<KeyWord lang="es">Diarios,sinteticos,modalidades,tipos,clasificacion,clasificaciones</KeyWord>
+					<KeyWord lang="en">Daily,summarized,classes,types,classifiication,classification</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Mapa de Distribuição de Múltiplas Naturezas</Title>
+				<Title lang="es">Mapa de Distribucion de Multiples Modalidades</Title>
+				<Title lang="en">Distribution Map Multiple Nature</Title>
+				<Function>FINR590</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEV</Tables>
+				<Tables>SEZ</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001516</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Mapas,tipos,classificação,classificações,distribuições</KeyWord>
+					<KeyWord lang="es">Mapas,tipos,clasificacion,clasificaciones,distribuciones</KeyWord>
+					<KeyWord lang="en">Maps,types,classification,classification,distribution</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçamentos X Reais Ano Por Centro de Custo</Title>
+				<Title lang="es">Presupuestos Vs Reales Ano Por Centro de Costo</Title>
+				<Title lang="en">Quotation X Reais Year By Cost Center</Title>
+				<Function>FINR731</Function>
+				<Type>1</Type>
+				<Tables>SE7</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEW</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001518</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Orçamentos,anuais,anual,anos,centros,realizados,realizadas,meses</KeyWord>
+					<KeyWord lang="es">Presupuestos,anuales,anual,anos,centros,realizados,realizadas,meses</KeyWord>
+					<KeyWord lang="en">Quotations,yearly,yearly,years,centers,realized,realized,months</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Compensação Entre Carteiras</Title>
+				<Title lang="es">Compensacion Entre Carteras</Title>
+				<Title lang="en">Compensation Between Portfolios</Title>
+				<Function>FINR520</Function>
+				<Type>1</Type>
+				<Tables>SA1</Tables>
+				<Tables>SA2</Tables>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001520</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Compensações</KeyWord>
+					<KeyWord lang="es">Compensaciones</KeyWord>
+					<KeyWord lang="en">Compensation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçados X Reais Mês</Title>
+				<Title lang="es">Presupuestados Vs Reales Mes</Title>
+				<Title lang="en">Quotation X Reais Month</Title>
+				<Function>FINR720</Function>
+				<Type>1</Type>
+				<Tables>SE7</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001532</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Meses,mensal,mensais,orçamentos</KeyWord>
+					<KeyWord lang="es">Meses,mensual,mensuales,presupuestos</KeyWord>
+					<KeyWord lang="en">Months,monthly,monthly,quotations</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçados X Reais Ano</Title>
+				<Title lang="es">Presupuestados Vs Reales Ano</Title>
+				<Title lang="en">Quoted X Reais Year</Title>
+				<Function>FINR730</Function>
+				<Type>1</Type>
+				<Tables>SE7</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001533</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Anos,anuais,orçamentos</KeyWord>
+					<KeyWord lang="es">Anos,anuales,presupuestos</KeyWord>
+					<KeyWord lang="en">Years,yearly,quotation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Orçados X Reais Mês Por Centro de Custo</Title>
+				<Title lang="es">Presupuestados Vs Reales Mes Por Centro de Costo</Title>
+				<Title lang="en">Quoted X Reais Month By Cost Center</Title>
+				<Function>FINR721</Function>
+				<Type>1</Type>
+				<Tables>SE7</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEW</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001536</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Orçados,meses,mensais,mensal,centros,custos,ano,anual,anuais,orçamentos</KeyWord>
+					<KeyWord lang="es">Presupuestados,meses,mensuales,mensual,centros,costos,ano,anual,anuales,presupuestos</KeyWord>
+					<KeyWord lang="en">Quoted,months,monthly,monthly,centers,costs,year,yearly,yearly,quotations</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Liquidação</Title>
+				<Title lang="es">Liquidacion</Title>
+				<Title lang="en">Settlement</Title>
+				<Function>FINR500</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001542</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Liquidações,negociação,negociações</KeyWord>
+					<KeyWord lang="es">Liquidaciones,negociacion,negociaciones</KeyWord>
+					<KeyWord lang="en">Settlements,negotiation,negotiation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conferência Avp Cr</Title>
+				<Title lang="es">Conferencia Avp Cr</Title>
+				<Title lang="en">Avp Cr Check</Title>
+				<Function>FINR904</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001543</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Receber,conferências,verificação,verificações</KeyWord>
+					<KeyWord lang="es">Cobrar,verificaciones,verificacion,verificaciones</KeyWord>
+					<KeyWord lang="en">Receive,verification,verification,verification</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Conferência Avp Cp</Title>
+				<Title lang="es">Conferencia Avp Cp</Title>
+				<Title lang="en">Avp Cp Check</Title>
+				<Function>FINR906</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001546</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pagar,conferências,verificação,verificações</KeyWord>
+					<KeyWord lang="es">Pagar,verificaciones,verificacion,verificaciones</KeyWord>
+					<KeyWord lang="en">Pay,verification,verfication,verification</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Título Avp Cr</Title>
+				<Title lang="es">Titulo Avp Cr</Title>
+				<Title lang="en">Avp Cr Title</Title>
+				<Function>FINR905</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001548</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Receber,títulos</KeyWord>
+					<KeyWord lang="es">Cobrar,titulos</KeyWord>
+					<KeyWord lang="en">Receive,bills</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Títulos Avp Cp</Title>
+				<Title lang="es">Titulos Avp Cp</Title>
+				<Title lang="en">Avp Cp Titles</Title>
+				<Function>FINR907</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001550</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pagar,</KeyWord>
+					<KeyWord lang="es">Pagar</KeyWord>
+					<KeyWord lang="en">Pay</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Caixinha</Title>
+			<Title lang="es">Caja Chica</Title>
+			<Title lang="en">Petty Cash</Title>
+			<ItemID>0000011621</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Movimentos</Title>
+				<Title lang="es">Movimientos</Title>
+				<Title lang="en">Transactions</Title>
+				<Function>FINR560</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001558</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha</KeyWord>
+					<KeyWord lang="es">Cajachica</KeyWord>
+					<KeyWord lang="en">Pettycash</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Status de Caixa</Title>
+				<Title lang="es">Estatus de Caja</Title>
+				<Title lang="en">Cash Status</Title>
+				<Function>FINR570</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001559</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha</KeyWord>
+					<KeyWord lang="es">Cajachica</KeyWord>
+					<KeyWord lang="en">Pettycash</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Baixa de Caixa</Title>
+				<Title lang="es">Baja de Caja</Title>
+				<Title lang="en">Cash Posting</Title>
+				<Function>FINR580</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001561</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,baixas</KeyWord>
+					<KeyWord lang="es">Cajas_chicas,bajas</KeyWord>
+					<KeyWord lang="en">Petty_cash,writeoff</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recibo de Caixa</Title>
+				<Title lang="es">Recibo de Caja</Title>
+				<Title lang="en">Cash Receipt</Title>
+				<Function>FINR565</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001563</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Caixinha,recibos</KeyWord>
+					<KeyWord lang="es">Cajas_chicas,recibos</KeyWord>
+					<KeyWord lang="en">Pettycash,receipts</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Comunic. Bancaria</Title>
+			<Title lang="es">Comunic. Bancaria</Title>
+			<Title lang="en">Bank Communicat.</Title>
+			<ItemID>0000011631</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Retorno Cnab</Title>
+				<Title lang="es">Informe de Retorno Cnab</Title>
+				<Title lang="en">Return Report Cnab</Title>
+				<Function>FINR650</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001570</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relatórios,retornos</KeyWord>
+					<KeyWord lang="es">Informes,retornos</KeyWord>
+					<KeyWord lang="en">Reports,returns</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Extrato Cnab</Title>
+				<Title lang="es">Informe de Extracto Cnab</Title>
+				<Title lang="en">Report Statement Cnab</Title>
+				<Function>FINR680</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001572</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relatórios,extratos</KeyWord>
+					<KeyWord lang="es">Informes,extractos</KeyWord>
+					<KeyWord lang="en">Reports,extract</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatório de Retorno Sispag</Title>
+				<Title lang="es">Informe de Retorno Sispag</Title>
+				<Title lang="en">Return Report Sispag</Title>
+				<Function>FINR850</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001574</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cnab,relatórios,retornos</KeyWord>
+					<KeyWord lang="es">Cnab,informes,retornos</KeyWord>
+					<KeyWord lang="en">Cnab,reports,returns</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Aplicações/Emprest</Title>
+			<Title lang="es">Invers. / Prest.</Title>
+			<Title lang="en">Investments/Loans</Title>
+			<ItemID>0000001337</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Demonstrativo Empréstimo</Title>
+				<Title lang="es">Demostrativo Prestamo</Title>
+				<Title lang="en">Load Statement</Title>
+				<Function>FINR870</Function>
+				<Type>1</Type>
+				<Tables>SEH</Tables>
+				<Tables>SEG</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001580</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Demonstrativos,empréstimos,aplicação,aplicações</KeyWord>
+					<KeyWord lang="es">Estados_demostrativos,prestamos,inversion,inversiones</KeyWord>
+					<KeyWord lang="en">Statements,loans,application,applications</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Demonstrativo Aplicação</Title>
+				<Title lang="es">Demostrativo Inversion</Title>
+				<Title lang="en">Inversion Statement</Title>
+				<Function>FINR820</Function>
+				<Type>1</Type>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001582</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Demonstrativos,aplicações,empréstimos</KeyWord>
+					<KeyWord lang="es">Estados_demostrativos,inversiones,prestamos</KeyWord>
+					<KeyWord lang="en">Statements,application,loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">História de Aplicação</Title>
+				<Title lang="es">Historial de Inversion</Title>
+				<Title lang="en">Application History</Title>
+				<Function>FINR830</Function>
+				<Type>1</Type>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001584</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Histórias,históricos,aplicações,empréstimos</KeyWord>
+					<KeyWord lang="es">Historial,historiales,inversiones,prestamos</KeyWord>
+					<KeyWord lang="en">History,history,application,loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Detalhe de Faturas</Title>
+				<Title lang="es">Detalle de Factura</Title>
+				<Title lang="en">Invoice detail</Title>
+				<Function>FINR295</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SA2</Tables>
+				<Tables>SED</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001585</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Detalhes,detalhamentos</KeyWord>
+					<KeyWord lang="es">Detalles,detalles</KeyWord>
+					<KeyWord lang="en">Details,detailing</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Viagens</Title>
+			<Title lang="es">Viajes</Title>
+			<Title lang="en">Trips</Title>
+			<ItemID>0000016560</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Status Prestação de Contas</Title>
+				<Title lang="es">Estatus Prestacion de Cuentas</Title>
+				<Title lang="en">Rendering Of Accounts Status</Title>
+				<Function>FINR678</Function>
+				<Type>1</Type>
+				<Tables>FLF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000016561</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Reserve,viagens,viagem,prestações</KeyWord>
+					<KeyWord lang="es">Reserve,viajes,viaje,cuotas</KeyWord>
+					<KeyWord lang="en">Reserve,trips,trip,installments</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Miscelanea</Title>
+		<Title lang="es">&Miscelanea</Title>
+		<Title lang="en">&Miscellaneous</Title>
+		<ItemID>A060000004</ItemID>
+		<Menu Status="Disable">
+			<Title lang="pt">Recalculos</Title>
+			<Title lang="es">N. Calculos</Title>
+			<Title lang="en">Recalculation</Title>
+			<ItemID>0000011662</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recálculo de Saldos Bancários</Title>
+				<Title lang="es">Recalculo de Saldos Bancarios</Title>
+				<Title lang="en">Bank Balance Maintenance</Title>
+				<Function>FINA210</Function>
+				<Type>1</Type>
+				<Tables>SA6</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SE8</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001596</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recálculos,bancárias,bancos</KeyWord>
+					<KeyWord lang="es">Recalculos,bancarias,bancos</KeyWord>
+					<KeyWord lang="en">Recalculation,banking,banks</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recálculo de Saldos Por Natureza</Title>
+				<Title lang="es">Recalculo de Saldos Por Modalidad</Title>
+				<Title lang="en">Balance Recalculation By Nature</Title>
+				<Function>FINA800</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001597</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Naturezas,recálculos</KeyWord>
+					<KeyWord lang="es">Modalidades,recalculos</KeyWord>
+					<KeyWord lang="en">Classes,recalculation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Refaz Acumulados</Title>
+				<Title lang="es">Rehace Acumulados</Title>
+				<Title lang="en">Redo Accruals</Title>
+				<Function>FINA360</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001598</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Acúmulos,acumuladas</KeyWord>
+					<KeyWord lang="es">Acumulos,acumuladas</KeyWord>
+					<KeyWord lang="en">Accumulated,accumulated</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Refaz Dados Clientes e Fornecedores</Title>
+				<Title lang="es">Rehace Datos Clientes Y Proveedores</Title>
+				<Title lang="en">Remake Client And Supplier Data</Title>
+				<Function>FINA410</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Tables>CTP</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001599</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Empresas,participantes,provedores,licitantes,abastecedores,provisores,compradores,consumidores,fregueses</KeyWord>
+					<KeyWord lang="es">Empresas,participantes,proveedores,licitadores,abastecedores,provisores,compradores,consumidores,clientes</KeyWord>
+					<KeyWord lang="en">Companies,participants,providers,bidders,suppliers,providers,buyers,consumers,customers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recálculo de Comissão</Title>
+				<Title lang="es">Recalculo de Comision</Title>
+				<Title lang="en">Commission Recalculation</Title>
+				<Function>FINA440</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001600</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recálculos,comissões</KeyWord>
+					<KeyWord lang="es">Recalculos,comisiones</KeyWord>
+					<KeyWord lang="en">Recalculation,commissions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aglutinação Imposto</Title>
+				<Title lang="es">Agrupacion Impuesto</Title>
+				<Title lang="en">Group Taxes</Title>
+				<Function>FINA376</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001602</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Aglutinações,impostos</KeyWord>
+					<KeyWord lang="es">Agrupaciones,impuestos</KeyWord>
+					<KeyWord lang="en">Groupings,taxes</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Apuração Inss</Title>
+				<Title lang="es">Calculo Inss</Title>
+				<Title lang="en">Inss Calculation</Title>
+				<Function>FINA377</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001603</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Apurações,impostos,verificações,verificação,averiguação,averiguações</KeyWord>
+					<KeyWord lang="es">Calculos,impuestos,verificaciones,verificacion,averiguacion,averiguaciones</KeyWord>
+					<KeyWord lang="en">Calculation,taxes,checks,check,check,checks</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Aglutinação de Pis, Confins e Csll</Title>
+				<Title lang="es">Agrupacion de Pis,cofins Y Csll</Title>
+				<Title lang="en">Pis,cofins And Csll Grouping</Title>
+				<Function>FINA378</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001604</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Pcc,impostos,aglutinações</KeyWord>
+					<KeyWord lang="es">Pcc,impuestos,agrupaciones</KeyWord>
+					<KeyWord lang="en">Pcc,taxes,grouping</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Recálculo do Caixinha</Title>
+				<Title lang="es">Recalculo de La Caja Chica</Title>
+				<Title lang="en">Kickback Recalculation</Title>
+				<Function>FINA570</Function>
+				<Type>1</Type>
+				<Tables>SA2</Tables>
+				<Tables>SET</Tables>
+				<Tables>SEU</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SA6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001606</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Recálculos</KeyWord>
+					<KeyWord lang="es">Recalculos</KeyWord>
+					<KeyWord lang="en">Recalculation</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Contabil</Title>
+			<Title lang="es">Contable</Title>
+			<Title lang="en">Accounting</Title>
+			<ItemID>0000011660</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Contabilização Off-line</Title>
+				<Title lang="es">Contabilizacion Offline</Title>
+				<Title lang="en">Off-line Accounting</Title>
+				<Function>FINA370</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE5</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001612</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Contabilizações</KeyWord>
+					<KeyWord lang="es">Contabilizaciones</KeyWord>
+					<KeyWord lang="en">Accounting</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Contabilização de Variação Monetária</Title>
+				<Title lang="es">Contabilizacion de Variacion Monetaria</Title>
+				<Title lang="en">Indexation Accounting</Title>
+				<Function>FINA350</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001614</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Monetárias,contabilizações,variações,moedas</KeyWord>
+					<KeyWord lang="es">Monetarias,contabilizaciones,variaciones,monedas</KeyWord>
+					<KeyWord lang="en">Monetary,accounting,variation,currency</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Apropriação Aplicação e Empréstimos</Title>
+				<Title lang="es">Apropiacion Aplicacion Y Prestamos</Title>
+				<Title lang="en">Appropriation Application And Loan</Title>
+				<Function>FINA182</Function>
+				<Type>1</Type>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001615</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Apropriações,aplicações</KeyWord>
+					<KeyWord lang="es">Apropiaciones,inversiones</KeyWord>
+					<KeyWord lang="en">Appropriation,application</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Apropriação Aplicação Por Cotas</Title>
+				<Title lang="es">Apropriac.aplicacion Por Cuotas</Title>
+				<Title lang="en">Appropriation Aplication By Quota</Title>
+				<Function>FINA183</Function>
+				<Type>1</Type>
+				<Tables>SEH</Tables>
+				<Tables>SEI</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001616</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Quotas,apropriações,aplicações</KeyWord>
+					<KeyWord lang="es">Cuotas,apropiaciones,inversiones</KeyWord>
+					<KeyWord lang="en">Quotes,appropriations,applications</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cálculo Avp Cp</Title>
+				<Title lang="es">Calculo Avp Cp</Title>
+				<Title lang="en">Calculation Avp Cp</Title>
+				<Function>FINA950</Function>
+				<Type>1</Type>
+				<Tables>FIQ</Tables>
+				<Tables>FIR</Tables>
+				<Tables>FIS</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001618</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cálculos,pagar</KeyWord>
+					<KeyWord lang="es">Calculos,pagar</KeyWord>
+					<KeyWord lang="en">Calculation,pay</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cálculo Avp Cr</Title>
+				<Title lang="es">Calculo Avp Cr</Title>
+				<Title lang="en">Calculation Avp Cr</Title>
+				<Function>FINA940</Function>
+				<Type>1</Type>
+				<Tables>FIN</Tables>
+				<Tables>FIO</Tables>
+				<Tables>FIP</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001619</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Cálculos,receber</KeyWord>
+					<KeyWord lang="es">Calculos,cobrar</KeyWord>
+					<KeyWord lang="en">Calculation,receive</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Integracoes</Title>
+			<Title lang="es">Integraciones</Title>
+			<Title lang="en">Integration</Title>
+			<ItemID>0000011661</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Planilha Excel</Title>
+				<Title lang="es">Planilla Excel</Title>
+				<Title lang="en">Excel Worksheet</Title>
+				<Function>APEXCEL</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001622</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Planilhas,integração,integrações</KeyWord>
+					<KeyWord lang="es">Planillas,integracion,integraciones</KeyWord>
+					<KeyWord lang="en">Spreadsheet,integration,integration</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Enable">
+			<Title lang="pt">Arquivos</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Files</Title>
+			<ItemID>0000011659</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Serasa Relato</Title>
+				<Title lang="es">Serasa Informe</Title>
+				<Title lang="en">Serasa Report</Title>
+				<Function>SERASA</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001629</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Relatos</KeyWord>
+					<KeyWord lang="es">Relatos</KeyWord>
+					<KeyWord lang="en">Reports</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cheques</Title>
+				<Title lang="es">Cheques</Title>
+				<Title lang="en">Checks</Title>
+				<Function>CFGX015</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>99</Owner>
+				<ItemID>0000001630</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Tabela de Motivos de Baixas</Title>
+				<Title lang="es">Tabla de Motivos de Bajas</Title>
+				<Title lang="en">Write-off Reason Table</Title>
+				<Function>FINA490</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001633</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Tabelas,circunstâncias</KeyWord>
+					<KeyWord lang="es">Tablas,circunstancias</KeyWord>
+					<KeyWord lang="en">Tables,circumstances</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Eliminação de Resíduos</Title>
+				<Title lang="es">Eliminacion de Residuos</Title>
+				<Title lang="en">Residual Elimination</Title>
+				<Function>FINA415</Function>
+				<Type>1</Type>
+				<Tables>SE1</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE3</Tables>
+				<Tables>SE5</Tables>
+				<Tables>SEF</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001634</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Eliminar,eliminações</KeyWord>
+					<KeyWord lang="es">Eliminar,eliminaciones</KeyWord>
+					<KeyWord lang="en">Delete,deletion</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Gera Dados Para a Dirf</Title>
+				<Title lang="es">Genera Datos Para Dirf</Title>
+				<Title lang="en">Generate Data For Dirf</Title>
+				<Function>FINA401</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SRL</Tables>
+				<Tables>SR4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001639</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Gerar,geração,gerações,emitir,emissões</KeyWord>
+					<KeyWord lang="es">Generar,generacion,generaciones,emitir,emisiones</KeyWord>
+					<KeyWord lang="en">Generate,generation,generation,issue,emissions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Dados Sefip</Title>
+				<Title lang="es">Datos Sefip</Title>
+				<Title lang="en">Sefip Data</Title>
+				<Function>FINA402A</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000011911</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Gera Dados Sefip</Title>
+				<Title lang="es">Gen. Datos Sefip</Title>
+				<Title lang="en">Gen.data F/S e Fip</Title>
+				<Function>FINA402</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001641</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Gerar,gerações,geração,emitir,emissão,emissões</KeyWord>
+					<KeyWord lang="es">Generar,generaciones,generacion,emitir,emision,emisiones</KeyWord>
+					<KeyWord lang="en">Generate,generations,generation,issue,emission,emissions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Atualização Sinief</Title>
+				<Title lang="es">Actualiz. Sinief</Title>
+				<Title lang="en">Sinief Update</Title>
+				<Function>UPDFINSINI</Function>
+				<Type>1</Type>
+				<Tables>SE5</Tables>
+				<Tables>SE2</Tables>
+				<Tables>SE1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001645</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Atualizações</KeyWord>
+					<KeyWord lang="es">Actualizaciones</KeyWord>
+					<KeyWord lang="en">Updates</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Gera Dirf Empresa Públicas</Title>
+				<Title lang="es">Genera Dirf Empresa Publicas</Title>
+				<Title lang="en">Generate Dirf Public Companies</Title>
+				<Function>FINA403</Function>
+				<Type>1</Type>
+				<Tables>SE2</Tables>
+				<Tables>SLR</Tables>
+				<Tables>SR4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000015749</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Gerar,geração,gerações,empresas,públicos,emitir,emissão,emissões</KeyWord>
+					<KeyWord lang="es">Generar,generacion,generaciones,empresas,publicos,emitir,emision,emisiones</KeyWord>
+					<KeyWord lang="en">Generate,generation,generation,companies,public,issue,emission,emissions</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Workflow</Title>
+			<Title lang="es">Workflow</Title>
+			<Title lang="en">Workflow</Title>
+			<ItemID>0000011663</ItemID>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rastreabilidade</Title>
+				<Title lang="es">Trazabilidad</Title>
+				<Title lang="en">Trackability</Title>
+				<Function>WFC001</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001651</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Rastrear,rastreamentos,rastreios</KeyWord>
+					<KeyWord lang="es">Rastrear,rastreos,rastreos</KeyWord>
+					<KeyWord lang="en">Track,tracking,tracing</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Processos Usuários</Title>
+				<Title lang="es">Procesos Usuarios</Title>
+				<Title lang="en">User Processes</Title>
+				<Function>WFC002</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001653</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt"></KeyWord>
+					<KeyWord lang="es"></KeyWord>
+					<KeyWord lang="en"></KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Messenger</Title>
+				<Title lang="es">Messenger</Title>
+				<Title lang="en">Messenger</Title>
+				<Function>WFATASKRMT</Function>
+				<Type>1</Type>
+				<Tables>WF6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+				<ItemID>0000001654</ItemID>
+				<KeyWord>
+					<KeyWord lang="pt">Mensagem,mensagens</KeyWord>
+					<KeyWord lang="es">Mensaje,mensajes</KeyWord>
+					<KeyWord lang="en">Message,messages</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu>
+		<Menu Status="Disable">
+			<Title lang="pt">Palavras Reservadas</Title>
+			<Title lang="es">Palabras Reservadas</Title>
+			<Title lang="en">Reserved Words</Title>
+			<ItemID>B060000001</IdemID>
+			<MenuItem Status="Disable">
+				<Title lang="pt">Palavras Reservadas</Title>
+				<Title lang="es">Palabras Reservadas</Title>
+				<Title lang="en">Reserved Words</Title>
+				<Function></Function>
+				<Type>1</Type>
+				<Tables></Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>0</Owner>
+				<ItemID>B060000002</IdemID>
+				<ReservedWords>
+					<Words "SPA E"></Words>
+					<Words "ENG I"></Words>
+					<Words "POR T"></Words>
+					<Words "POR P"></Words>
+				</ReservedWords>
+			</MenuItem>
+		</Menu>
+	</Menu>
+</ApMenu>
